@@ -1,0 +1,11 @@
+server.port: 8081
+
+spring:
+  application:
+    name: itunes-library-service
+
+logging.level:
+  ROOT: INFO
+  org.springframework: INFO
+  org.hibernate.SQL: INFO
+  com.unrec: WARN
