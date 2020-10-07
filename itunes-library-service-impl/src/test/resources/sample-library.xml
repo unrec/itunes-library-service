@@ -567,6 +567,155 @@
 				</dict>
 			</array>
 		</dict>
+		<dict>
+			<key>Name</key><string>beastie boys 5★</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>130175</integer>
+			<key>Playlist Persistent ID</key><string>8F2722B58EC10041</string>
+			<key>Parent Persistent ID</key><string>47A0072044278E89</string>
+			<key>All Items</key><true/>
+			<key>Smart Info</key>
+			<data>
+				AQEAAwAAAAIAAAAZAAAAAAAAAAcAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAA==
+			</data>
+			<key>Smart Criteria</key>
+			<data>
+				U0xzdAABAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAU0xzdAABAAEAAAACAAAAAQAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAADwAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAABEAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAB
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAg
+				AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVRTTHN0AAEAAQAAAAIAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAABAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAABgAQgBlAGEAcwB0AGkAZQAgAEIAbwB5AHMAAAAZAAABAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAABkAAAAAAAA
+				AAAAAAAAAAAAAQAAAAAAAABtAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
+			</data>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>9657</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9729</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9743</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9753</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9771</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9857</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9869</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9939</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9947</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9949</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9953</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9963</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9973</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9977</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10007</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10015</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10017</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10021</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10027</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9849</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9853</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9917</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>42429</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>42433</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9803</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9813</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9825</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9647</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9655</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9653</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9727</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9965</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9895</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9907</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9805</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9671</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>9749</integer>
+				</dict>
+			</array>
+		</dict>
 	</array>
 </dict>
 </plist>

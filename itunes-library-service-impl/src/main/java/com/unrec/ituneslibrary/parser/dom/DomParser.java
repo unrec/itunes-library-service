@@ -14,10 +14,9 @@ import org.springframework.stereotype.Service;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
-import java.net.MalformedURLException;
 import java.net.URL;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -35,7 +34,7 @@ public class DomParser implements XmlParser {
     private static final String XPATH_LIBRARY = "/plist/dict";
     private static final String XPATH_TRACKS = "/plist/dict/dict/dict";
     private static final String XPATH_PLAYLISTS = "/plist/dict/array/dict";
-    private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
+    private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss'Z'");
 
     @Getter
     private Library library = new Library();
@@ -141,27 +140,27 @@ public class DomParser implements XmlParser {
             if (object instanceof Library) {
                 try {
                     addLibraryProperty((Library) object, key, value);
-                } catch (ParseException | MalformedURLException e) {
-                    log.error("Error while parsing a Library property: {}", e.getMessage());
+                } catch (Exception e) {
+                    log.error("Error while parsing a Library property \"{}\". {}: {}", key, e.getClass().getSimpleName(), e.getMessage());
                 }
             } else if (object instanceof Track) {
                 try {
                     addTrackProperty((Track) object, key, value);
-                } catch (ParseException | MalformedURLException e) {
-                    log.error("Error while parsing a Track property: {}", e.getMessage());
+                } catch (Exception e) {
+                    log.error("Error while parsing a Track property \"{}\". {}: {}", key, e.getClass().getSimpleName(), e.getMessage());
                 }
             } else if (object instanceof Playlist) {
                 try {
                     addPlaylistProperty((Playlist) object, key, value);
-                } catch (ParseException e) {
-                    log.error("Error while parsing a Playlist property: {}", e.getMessage());
+                } catch (Exception e) {
+                    log.error("Error while parsing a Playlist property \"{}\". {}: {}", key, e.getClass().getSimpleName(), e.getMessage());
                 }
             }
         }
         return object;
     }
 
-    private void addLibraryProperty(Library library, String key, String value) throws ParseException, MalformedURLException {
+    private void addLibraryProperty(Library library, String key, String value) throws Exception {
         switch (key) {
             case "Major Version":
                 library.setMajorVersion(parseInt(value));
@@ -170,7 +169,7 @@ public class DomParser implements XmlParser {
                 library.setMinorVersion(parseInt(value));
                 break;
             case "Date":
-                library.setDate(DATE_FORMAT.parse(value));
+                library.setDate(LocalDateTime.parse(value, DATE_TIME_FORMATTER));
                 break;
             case "Application Version":
                 library.setApplicationVersion(value);
@@ -193,7 +192,7 @@ public class DomParser implements XmlParser {
         }
     }
 
-    private void addTrackProperty(Track track, String key, String value) throws ParseException, MalformedURLException {
+    private void addTrackProperty(Track track, String key, String value) throws Exception {
         switch (key) {
             case "Album":
                 track.setAlbum(value);
@@ -233,10 +232,10 @@ public class DomParser implements XmlParser {
                 track.setClean(parseBoolean(value));
                 break;
             case "Date Added":
-                track.setDateAdded(DATE_FORMAT.parse(value));
+                track.setDateAdded(LocalDateTime.parse(value, DATE_TIME_FORMATTER));
                 break;
             case "Date Modified":
-                track.setDateModified(DATE_FORMAT.parse(value));
+                track.setDateModified(LocalDateTime.parse(value, DATE_TIME_FORMATTER));
                 break;
             case "Disc Count":
                 track.setDiscCount(parseInt(value));
@@ -302,7 +301,7 @@ public class DomParser implements XmlParser {
                 track.setPlayDate(Long.parseLong(value));
                 break;
             case "Play Date UTC":
-                track.setPlayDateUTC(DATE_FORMAT.parse(value));
+                track.setPlayDateUTC(LocalDateTime.parse(value, DATE_TIME_FORMATTER));
                 break;
             case "Podcast":
                 track.setPodcast(parseBoolean(value));
@@ -313,7 +312,7 @@ public class DomParser implements XmlParser {
                 track.setRating(parseInt(value));
                 break;
             case "Release Date":
-                track.setReleaseDate(DATE_FORMAT.parse(value));
+                track.setReleaseDate(LocalDateTime.parse(value, DATE_TIME_FORMATTER));
                 break;
             case "Sample Rate":
                 track.setSampleRate(parseInt(value));
@@ -325,7 +324,7 @@ public class DomParser implements XmlParser {
                 track.setSkipCount(parseInt(value));
                 break;
             case "Skip Date":
-                track.setSkipDate(DATE_FORMAT.parse(value));
+                track.setSkipDate(LocalDateTime.parse(value, DATE_TIME_FORMATTER));
                 break;
             case "Season":
                 track.setSeason(parseInt(value));
@@ -384,7 +383,7 @@ public class DomParser implements XmlParser {
         }
     }
 
-    private void addPlaylistProperty(Playlist playlist, String key, String value) throws ParseException {
+    private void addPlaylistProperty(Playlist playlist, String key, String value) throws Exception {
         switch (key) {
             case "All Items":
                 playlist.setAllItems(parseBoolean(value));

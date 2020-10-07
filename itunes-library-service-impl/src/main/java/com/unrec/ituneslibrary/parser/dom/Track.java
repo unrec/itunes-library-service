@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import java.net.URL;
-import java.util.Date;
+import java.time.LocalDateTime;
 
 @Data
 @AllArgsConstructor
@@ -23,8 +23,8 @@ public class Track {
     private String comments;
     private Boolean compilation;
     private String composer;
-    private Date dateAdded;
-    private Date dateModified;
+    private LocalDateTime dateAdded;
+    private LocalDateTime dateModified;
     private Boolean disabled;
     private Integer discCount;
     private Integer discNumber;
@@ -46,17 +46,17 @@ public class Track {
     private String persistentID;
     private Integer playCount;
     private Long playDate;
-    private Date playDateUTC;
+    private LocalDateTime playDateUTC;
     private Boolean podcast;
     private Boolean purchased;
     private Integer rating;
-    private Date releaseDate;
+    private LocalDateTime releaseDate;
     private Integer sampleRate;
     private Integer season;
     private String series;
     private Long size;
     private Integer skipCount;
-    private Date skipDate;
+    private LocalDateTime skipDate;
     private String sortAlbum;
     private String sortAlbumArtist;
     private String sortArtist;

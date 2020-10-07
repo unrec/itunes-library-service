@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import java.net.URL;
-import java.util.Date;
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Data
@@ -14,7 +14,7 @@ public class Library {
 
     private Integer majorVersion;
     private Integer minorVersion;
-    private Date date;
+    private LocalDateTime date;
     private String applicationVersion;
     private Integer features;
     private Boolean showContentRatings;

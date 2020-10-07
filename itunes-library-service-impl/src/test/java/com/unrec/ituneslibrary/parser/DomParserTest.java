@@ -9,9 +9,10 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import java.io.File;
 import java.net.MalformedURLException;
-import java.text.ParseException;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 import static com.unrec.ituneslibrary.parser.utils.TestObjects.SAMPLE_LIBRARY_PATH;
 import static com.unrec.ituneslibrary.parser.utils.TestObjects.getTestLibrary;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -30,7 +31,7 @@ class DomParserTest {
     }
 
     @Test
-    void test_ParseLibrary() throws MalformedURLException, ParseException {
+    void test_ParseLibrary() throws MalformedURLException {
         Library expected = getTestLibrary();
         Library actual = parser.getLibrary();
         assertEquals(actual, expected);
@@ -46,6 +47,16 @@ class DomParserTest {
     @Test
     void test_ParsePlaylists() {
         Map<Integer, Playlist> playlists = parser.getPlaylists();
-        playlists.forEach((k, v) -> System.out.println(String.format("Key: %s, songs: %s", k, v.getPlaylistItems().keySet())));
+        List<String> playlistNames = playlists.values().stream()
+                .map(Playlist::getName)
+                .collect(Collectors.toList());
+
+        String playlist = "beastie boys 5★";
+        assertTrue(playlistNames.contains(playlist));
+
+        List<Playlist> list = playlists.values().stream()
+                .filter(pl -> pl.getName().equals(playlist))
+                .collect(Collectors.toList());
+        assertEquals(37, list.get(0).getPlaylistItems().size());
     }
 }

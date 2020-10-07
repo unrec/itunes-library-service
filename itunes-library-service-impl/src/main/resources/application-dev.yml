@@ -8,4 +8,4 @@ logging.level:
   ROOT: INFO
   org.springframework: INFO
   org.hibernate.SQL: INFO
-  com.unrec: WARN
+  com.unrec: INFO
