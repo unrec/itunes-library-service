@@ -2,8 +2,8 @@ package com.unrec.ituneslibrary.parser;
 
 import com.unrec.ituneslibrary.parser.dom.DomParser;
 import com.unrec.ituneslibrary.parser.dom.Library;
-import com.unrec.ituneslibrary.parser.dom.Playlist;
-import com.unrec.ituneslibrary.parser.dom.Track;
+import com.unrec.ituneslibrary.parser.dom.PlaylistRecord;
+import com.unrec.ituneslibrary.parser.dom.TrackRecord;
 import org.dom4j.DocumentException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -13,8 +13,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
-import static com.unrec.ituneslibrary.parser.utils.TestObjects.SAMPLE_LIBRARY_PATH;
-import static com.unrec.ituneslibrary.parser.utils.TestObjects.getTestLibrary;
+import static com.unrec.ituneslibrary.utils.TestObjects.SAMPLE_LIBRARY_PATH;
+import static com.unrec.ituneslibrary.utils.TestObjects.getTestLibrary;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -39,22 +39,22 @@ class DomParserTest {
 
     @Test
     void test_ParseTracks() {
-        Map<Integer, Track> tracks = parser.getTracks();
+        Map<Integer, TrackRecord> tracks = parser.getTracks();
         assertTrue(tracks.keySet().containsAll(Arrays.asList(
                 3585, 3601, 3587, 3603, 3589, 3591, 3593, 3595, 3581, 3597, 3583, 3599)));
     }
 
     @Test
     void test_ParsePlaylists() {
-        Map<Integer, Playlist> playlists = parser.getPlaylists();
+        Map<Integer, PlaylistRecord> playlists = parser.getPlaylists();
         List<String> playlistNames = playlists.values().stream()
-                .map(Playlist::getName)
+                .map(PlaylistRecord::getName)
                 .collect(Collectors.toList());
 
         String playlist = "beastie boys 5★";
         assertTrue(playlistNames.contains(playlist));
 
-        List<Playlist> list = playlists.values().stream()
+        List<PlaylistRecord> list = playlists.values().stream()
                 .filter(pl -> pl.getName().equals(playlist))
                 .collect(Collectors.toList());
         assertEquals(37, list.get(0).getPlaylistItems().size());

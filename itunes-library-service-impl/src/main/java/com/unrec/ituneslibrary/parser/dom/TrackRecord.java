@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Track {
+public class TrackRecord {
 
     private String album;
     private String albumArtist;

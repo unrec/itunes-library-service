@@ -39,9 +39,9 @@ public class DomParser implements XmlParser {
     @Getter
     private Library library = new Library();
     @Getter
-    private Map<Integer, Track> tracks = new HashMap<>();
+    private Map<Integer, TrackRecord> tracks = new HashMap<>();
     @Getter
-    private Map<Integer, Playlist> playlists = new HashMap<>();
+    private Map<Integer, PlaylistRecord> playlists = new HashMap<>();
 
     private File file;
 
@@ -75,7 +75,7 @@ public class DomParser implements XmlParser {
 
             @Override
             public void onEnd(ElementPath elementPath) {
-                Track track = new Track();
+                TrackRecord track = new TrackRecord();
                 addPropertiesToObject(library, elementPath);
                 tracks.put(track.getTrackID(), track);
             }
@@ -90,7 +90,7 @@ public class DomParser implements XmlParser {
 
             @Override
             public void onEnd(ElementPath elementPath) {
-                Track track = addPropertiesToObject(new Track(), elementPath);
+                TrackRecord track = addPropertiesToObject(new TrackRecord(), elementPath);
                 tracks.put(track.getTrackID(), track);
             }
         };
@@ -104,7 +104,7 @@ public class DomParser implements XmlParser {
 
             @Override
             public void onEnd(ElementPath elementPath) {
-                Playlist playlist = addPropertiesToObject(new Playlist(), elementPath);
+                PlaylistRecord playlist = addPropertiesToObject(new PlaylistRecord(), elementPath);
                 playlists.put(playlist.getPlaylistID(), playlist);
             }
         };
@@ -130,8 +130,8 @@ public class DomParser implements XmlParser {
                 value = "true";
             } else if ("false".equals(elements.get(i).getName())) {
                 value = "false";
-            } else if (object instanceof Playlist && "array".equals(elements.get(i).getName())) {
-                addTracksToPlaylist(elements.get(i), (Playlist) object);
+            } else if (object instanceof PlaylistRecord && "array".equals(elements.get(i).getName())) {
+                addTracksToPlaylist(elements.get(i), (PlaylistRecord) object);
                 continue;
             } else {
                 value = elements.get(i).getText();
@@ -143,15 +143,15 @@ public class DomParser implements XmlParser {
                 } catch (Exception e) {
                     log.error("Error while parsing a Library property \"{}\". {}: {}", key, e.getClass().getSimpleName(), e.getMessage());
                 }
-            } else if (object instanceof Track) {
+            } else if (object instanceof TrackRecord) {
                 try {
-                    addTrackProperty((Track) object, key, value);
+                    addTrackProperty((TrackRecord) object, key, value);
                 } catch (Exception e) {
                     log.error("Error while parsing a Track property \"{}\". {}: {}", key, e.getClass().getSimpleName(), e.getMessage());
                 }
-            } else if (object instanceof Playlist) {
+            } else if (object instanceof PlaylistRecord) {
                 try {
-                    addPlaylistProperty((Playlist) object, key, value);
+                    addPlaylistProperty((PlaylistRecord) object, key, value);
                 } catch (Exception e) {
                     log.error("Error while parsing a Playlist property \"{}\". {}: {}", key, e.getClass().getSimpleName(), e.getMessage());
                 }
@@ -192,7 +192,7 @@ public class DomParser implements XmlParser {
         }
     }
 
-    private void addTrackProperty(Track track, String key, String value) throws Exception {
+    private void addTrackProperty(TrackRecord track, String key, String value) throws Exception {
         switch (key) {
             case "Album":
                 track.setAlbum(value);
@@ -383,7 +383,7 @@ public class DomParser implements XmlParser {
         }
     }
 
-    private void addPlaylistProperty(Playlist playlist, String key, String value) throws Exception {
+    private void addPlaylistProperty(PlaylistRecord playlist, String key, String value) throws Exception {
         switch (key) {
             case "All Items":
                 playlist.setAllItems(parseBoolean(value));
@@ -443,14 +443,14 @@ public class DomParser implements XmlParser {
         }
     }
 
-    private void addTracksToPlaylist(Element element, Playlist playlist) {
+    private void addTracksToPlaylist(Element element, PlaylistRecord playlist) {
         List<Element> elements = element.elements();
-        Map<Integer, Track> tracksToPlaylist = new HashMap<>();
+        Map<Integer, TrackRecord> tracksToPlaylist = new HashMap<>();
 
         for (Element value : elements) {
             Element el = value.elements().get(1);
             int id = parseInt(el.getText());
-            Track track = tracks.get(id);
+            TrackRecord track = tracks.get(id);
             tracksToPlaylist.put(id, track);
         }
         playlist.setPlaylistItems(tracksToPlaylist);

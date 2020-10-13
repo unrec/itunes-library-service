@@ -21,6 +21,6 @@ public class Library {
     private URL musicFolder;
     private String libraryId;
 
-    private List<Track> tracks;
-    private List<Playlist> playlists;
+    private List<TrackRecord> trackRecords;
+    private List<PlaylistRecord> playlistRecords;
 }

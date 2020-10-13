@@ -8,7 +8,7 @@ import java.util.Map;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Playlist {
+public class PlaylistRecord {
 
     private Boolean allItems;
     private Boolean audiobooks;
@@ -20,7 +20,7 @@ public class Playlist {
     private String name;
     private String parentPersistentID;
     private Integer playlistID;
-    private Map<Integer, Track> playlistItems;
+    private Map<Integer, TrackRecord> playlistItems;
     private String playlistPersistentID;
     private Boolean podcasts;
     private String smartCriteria;
