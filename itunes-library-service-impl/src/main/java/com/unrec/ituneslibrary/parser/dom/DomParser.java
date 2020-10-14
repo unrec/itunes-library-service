@@ -75,9 +75,7 @@ public class DomParser implements XmlParser {
 
             @Override
             public void onEnd(ElementPath elementPath) {
-                TrackRecord track = new TrackRecord();
                 addPropertiesToObject(library, elementPath);
-                tracks.put(track.getTrackID(), track);
             }
         };
     }
