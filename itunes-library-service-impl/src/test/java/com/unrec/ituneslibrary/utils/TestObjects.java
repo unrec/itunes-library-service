@@ -5,6 +5,7 @@ import com.unrec.ituneslibrary.model.Artist;
 import com.unrec.ituneslibrary.model.Playlist;
 import com.unrec.ituneslibrary.model.Track;
 import com.unrec.ituneslibrary.parser.dom.Library;
+import com.unrec.ituneslibrary.parser.dom.TrackRecord;
 import lombok.experimental.UtilityClass;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -15,12 +16,77 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import static java.lang.Boolean.FALSE;
+import static java.lang.Boolean.TRUE;
 
 @UtilityClass
 public class TestObjects {
 
     public static final String SAMPLE_LIBRARY_PATH = "src/test/resources/sample-library.xml";
+//    public static final String SAMPLE_LIBRARY_COPY_PATH = "src/test/resources/sample-library-copy.xml";
     private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss'Z'");
+
+    public static TrackRecord trackRecord() throws MalformedURLException {
+        return new TrackRecord()
+                .setAlbum("Secret Treaties")
+                .setAlbumRating(80)
+                .setAlbumRatingComputed(TRUE)
+                .setArtist("Blue Öyster Cult")
+                .setArtworkCount(1)
+                .setBitRate(320)
+                .setComments("andrei_47 music collection")
+                .setDateAdded(LocalDateTime.parse("2019-09-02T19:25:50Z", DATE_TIME_FORMATTER))
+                .setDateModified(LocalDateTime.parse("2019-09-02T17:25:25Z", DATE_TIME_FORMATTER))
+                .setFileFolderCount(-1)
+                .setGenre("Rock")
+                .setKind("Аудиофайл MPEG")
+                .setLibraryFolderCount(-1)
+                .setLocation(new URL("file://localhost/D:/music/Blue%20%C3%96yster%20Cult/(1974)%20Secret%20Treaties/08%20-%20Astronomy.mp3"))
+                .setName("Astronomy")
+                .setPersistentID("A17C36C05DA5AA95")
+                .setPlayCount(17)
+                .setPlayDate(3663238922L)
+                .setPlayDateUTC(LocalDateTime.parse("2020-01-30T11:22:02Z", DATE_TIME_FORMATTER))
+                .setRating(100)
+                .setSampleRate(44100)
+                .setSize(15928604L)
+                .setSkipCount(1)
+                .setSkipDate(LocalDateTime.parse("2019-09-24T08:38:37Z", DATE_TIME_FORMATTER))
+                .setTotalTime(388519L)
+                .setTrackCount(8)
+                .setTrackID(50421)
+                .setTrackNumber(8)
+                .setTrackType("File")
+                .setYear(1974);
+    }
+
+    public static Track track(TrackRecord src) {
+        return new Track()
+                .setId(src.getPersistentID())
+                .setName(src.getName())
+                .setGenre(src.getGenre())
+                .setComposer(src.getComposer())
+                .setTrackNumber(src.getTrackNumber())
+                .setDiscNumber(src.getDiscNumber())
+                .setExplicit(src.getExplicit())
+                .setReleaseDate(src.getReleaseDate())
+                .setLocation(src.getLocation())
+                .setSize(src.getSize())
+                .setKind(src.getKind())
+                .setBitRate(src.getBitRate())
+                .setSampleRate(src.getSampleRate())
+                .setBitRate(src.getBitRate())
+                .setComments(src.getComments())
+                .setTrackId(src.getTrackID())
+                .setPlayCount(src.getPlayCount())
+                .setSkipCount(src.getRating())
+                .setRating(src.getRating())
+                .setDateAdded(src.getDateAdded())
+                .setDateModified(src.getDateModified())
+                .setPlayDateUTC(src.getPlayDateUTC())
+                .setSkipDate(src.getSkipDate())
+                .setPurchased(src.getPurchased())
+                .setTrackType(src.getTrackType());
+    }
 
     public static Library getTestLibrary() throws MalformedURLException {
         return new Library()
