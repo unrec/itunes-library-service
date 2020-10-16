@@ -6,6 +6,7 @@ import com.unrec.ituneslibrary.model.Playlist;
 import com.unrec.ituneslibrary.model.Track;
 import com.unrec.ituneslibrary.parser.dom.Library;
 import com.unrec.ituneslibrary.parser.dom.TrackRecord;
+import com.unrec.ituneslibrary.service.LibraryDatabaseService.AlbumWithArtist;
 import lombok.experimental.UtilityClass;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -22,8 +23,11 @@ import static java.lang.Boolean.TRUE;
 public class TestObjects {
 
     public static final String SAMPLE_LIBRARY_PATH = "src/test/resources/sample-library.xml";
-//    public static final String SAMPLE_LIBRARY_COPY_PATH = "src/test/resources/sample-library-copy.xml";
+    public static final String SAMPLE_LIBRARY_MULTI_DISC_PATH = "src/test/resources/sample-library-multi-disc.xml";
+    public static final String FULL_LIBRARY_PATH = "src/test/resources/full-library.xml";
     private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss'Z'");
+
+    /* MAPPING OBJECTS */
 
     public static TrackRecord trackRecord() throws MalformedURLException {
         return new TrackRecord()
@@ -87,6 +91,50 @@ public class TestObjects {
                 .setPurchased(src.getPurchased())
                 .setTrackType(src.getTrackType());
     }
+
+    public static Album album(TrackRecord src) {
+        return new Album()
+                .setName(src.getAlbum())
+                .setYear(src.getYear())
+                .setAlbumArtist(src.getAlbumArtist())
+                .setCompilation(src.getCompilation());
+    }
+
+    public static Artist artist(TrackRecord src) {
+        return new Artist().setName(src.getArtist());
+    }
+
+    public static AlbumWithArtist albumWithArtist() {
+        return new AlbumWithArtist()
+                .setAlbum("The Platinum Collection")
+                .setYear(2007)
+                .setTrackDiscInfo(Map.of(1, 20, 2, 20, 3, 20))
+                .setArtist("Ennio Morricone");
+    }
+
+    public static AlbumWithArtist albumWithArtist(TrackRecord src) {
+        return new AlbumWithArtist()
+                .setAlbum(src.getAlbum())
+                .setYear(src.getYear())
+                .setAlbumArtist(src.getAlbumArtist())
+                .setCompilation(src.getCompilation())
+                .setArtist(src.getArtist());
+    }
+
+    public static Album album(AlbumWithArtist src) {
+        return new Album()
+                .setName(src.getArtist())
+                .setYear(src.getYear())
+                .setAlbumArtist(src.getAlbumArtist())
+                .setCompilation(src.getCompilation())
+                .setTrackDiscInfo(src.getTrackDiscInfo());
+    }
+
+    public static Artist artist(AlbumWithArtist src) {
+        return new Artist().setName(src.getArtist());
+    }
+
+    /* REPOSITORY OBJECTS */
 
     public static Library getTestLibrary() throws MalformedURLException {
         return new Library()
