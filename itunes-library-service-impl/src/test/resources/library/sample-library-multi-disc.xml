@@ -1,0 +1,2015 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Major Version</key><integer>1</integer>
+		<key>Minor Version</key><integer>1</integer>
+		<key>Date</key><date>2020-09-29T15:14:05Z</date>
+		<key>Application Version</key><string>12.10.9.3</string>
+		<key>Features</key><integer>5</integer>
+		<key>Show Content Ratings</key><true/>
+		<key>Music Folder</key><string>file://localhost/D:/music/!itunes/iTunes%20Media/iTunes%20Media/</string>
+		<key>Library Persistent ID</key><string>DFB4D882E87C2F12</string>
+		<key>Tracks</key>
+		<dict>
+			<key>22343</key>
+			<dict>
+				<key>Track ID</key><integer>22343</integer>
+				<key>Name</key><string>Gabriel's Oboe</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>5581314</integer>
+				<key>Total Time</key><integer>136933</integer>
+				<key>Disc Number</key><integer>1</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>1</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:22Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Skip Count</key><integer>1</integer>
+				<key>Skip Date</key><date>2015-11-25T18:01:45Z</date>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>0C4DA94DFC1A1E2D</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD1/01%20-%20Gabriel's%20Oboe.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22345</key>
+			<dict>
+				<key>Track ID</key><integer>22345</integer>
+				<key>Name</key><string>Il Buono, Il Brutto, Il Cattivo</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>6627308</integer>
+				<key>Total Time</key><integer>163082</integer>
+				<key>Disc Number</key><integer>1</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>2</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:22Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>337177D24589C0B7</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD1/02%20-%20Il%20Buono,%20Il%20Brutto,%20Il%20Cattivo.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22347</key>
+			<dict>
+				<key>Track ID</key><integer>22347</integer>
+				<key>Name</key><string>C'era Una Volta Il West</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>9108917</integer>
+				<key>Total Time</key><integer>225123</integer>
+				<key>Disc Number</key><integer>1</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>3</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:22Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>D345E9262E065F12</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD1/03%20-%20C'era%20Una%20Volta%20Il%20West.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22349</key>
+			<dict>
+				<key>Track ID</key><integer>22349</integer>
+				<key>Name</key><string>Metti Una Sera A Cena</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>11027371</integer>
+				<key>Total Time</key><integer>273084</integer>
+				<key>Disc Number</key><integer>1</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>4</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:22Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>32B6EE94A97F0FED</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD1/04%20-%20Metti%20Una%20Sera%20A%20Cena.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22351</key>
+			<dict>
+				<key>Track ID</key><integer>22351</integer>
+				<key>Name</key><string>Nuovo Cinema Paradiso</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>6292911</integer>
+				<key>Total Time</key><integer>154723</integer>
+				<key>Disc Number</key><integer>1</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>5</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:22Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>747942EF0BBAF2FD</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD1/05%20-%20Nuovo%20Cinema%20Paradiso.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22353</key>
+			<dict>
+				<key>Track ID</key><integer>22353</integer>
+				<key>Name</key><string>La Donna Della Domenica</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>8278223</integer>
+				<key>Total Time</key><integer>204355</integer>
+				<key>Disc Number</key><integer>1</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>6</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:22Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>992AFEEED6951712</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD1/06%20-%20La%20Donna%20Della%20Domenica.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22355</key>
+			<dict>
+				<key>Track ID</key><integer>22355</integer>
+				<key>Name</key><string>Il Clan Dei Siciliani</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>8905156</integer>
+				<key>Total Time</key><integer>220029</integer>
+				<key>Disc Number</key><integer>1</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>7</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:22Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>5CCFE4073D559773</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD1/07%20-%20Il%20Clan%20Dei%20Siciliani.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22357</key>
+			<dict>
+				<key>Track ID</key><integer>22357</integer>
+				<key>Name</key><string>Addio A Palermo</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>9265627</integer>
+				<key>Total Time</key><integer>229041</integer>
+				<key>Disc Number</key><integer>1</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>8</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:22Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>993D34560ED53493</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD1/08%20-%20Addio%20A%20Palermo.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22359</key>
+			<dict>
+				<key>Track ID</key><integer>22359</integer>
+				<key>Name</key><string>Il Mio Nome È Nessuno</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>7801744</integer>
+				<key>Total Time</key><integer>192444</integer>
+				<key>Disc Number</key><integer>1</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>9</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:22Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>B37A1AD00CE669B7</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD1/09%20-%20Il%20Mio%20Nome%20%C3%88%20Nessuno.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22361</key>
+			<dict>
+				<key>Track ID</key><integer>22361</integer>
+				<key>Name</key><string>Tema D'Amore Disperato</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>5301305</integer>
+				<key>Total Time</key><integer>129933</integer>
+				<key>Disc Number</key><integer>1</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>10</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:22Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>15A4F4A4F88CED84</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD1/10%20-%20Tema%20D'Amore%20Disperato.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22363</key>
+			<dict>
+				<key>Track ID</key><integer>22363</integer>
+				<key>Name</key><string>Speranze Di Libertа</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>6137216</integer>
+				<key>Total Time</key><integer>150831</integer>
+				<key>Disc Number</key><integer>1</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>11</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:22Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>D3B4975E3D2FDB45</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD1/11%20-%20Speranze%20Di%20Libert%D0%B0.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22365</key>
+			<dict>
+				<key>Track ID</key><integer>22365</integer>
+				<key>Name</key><string>Paura Sulla Cittа</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>10185145</integer>
+				<key>Total Time</key><integer>252029</integer>
+				<key>Disc Number</key><integer>1</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>12</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:22Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>479D359CEBC387DF</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD1/12%20-%20Paura%20Sulla%20Citt%D0%B0.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22367</key>
+			<dict>
+				<key>Track ID</key><integer>22367</integer>
+				<key>Name</key><string>La Califfa</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>6694118</integer>
+				<key>Total Time</key><integer>164754</integer>
+				<key>Disc Number</key><integer>1</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>13</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:22Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>57C48211767998A1</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD1/13%20-%20La%20Califfa.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22369</key>
+			<dict>
+				<key>Track ID</key><integer>22369</integer>
+				<key>Name</key><string>Inseguimento E Fuga</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>8978292</integer>
+				<key>Total Time</key><integer>221857</integer>
+				<key>Disc Number</key><integer>1</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>14</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:22Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>44F5552564683366</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD1/14%20-%20Inseguimento%20E%20Fuga.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22371</key>
+			<dict>
+				<key>Track ID</key><integer>22371</integer>
+				<key>Name</key><string>Lontano</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>11001179</integer>
+				<key>Total Time</key><integer>272431</integer>
+				<key>Disc Number</key><integer>1</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>15</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T15:53:22Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>1CC1E5816A18F92C</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD1/15%20-%20Lontano.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22373</key>
+			<dict>
+				<key>Track ID</key><integer>22373</integer>
+				<key>Name</key><string>Barbablu</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>7217606</integer>
+				<key>Total Time</key><integer>177841</integer>
+				<key>Disc Number</key><integer>1</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>16</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:22Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>A79B2E99C5E909A7</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD1/16%20-%20Barbablu.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22375</key>
+			<dict>
+				<key>Track ID</key><integer>22375</integer>
+				<key>Name</key><string>Tema D'amore</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>7762010</integer>
+				<key>Total Time</key><integer>191451</integer>
+				<key>Disc Number</key><integer>1</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>17</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T15:53:22Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>52CF7143A8CD0BE0</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD1/17%20-%20Tema%20D'amore.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22377</key>
+			<dict>
+				<key>Track ID</key><integer>22377</integer>
+				<key>Name</key><string>Viaggio Con Anita</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>6890580</integer>
+				<key>Total Time</key><integer>169665</integer>
+				<key>Disc Number</key><integer>1</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>18</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:22Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Skip Count</key><integer>1</integer>
+				<key>Skip Date</key><date>2015-12-07T17:02:51Z</date>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>BF5AFC787031D1E6</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD1/18%20-%20Viaggio%20Con%20Anita.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22379</key>
+			<dict>
+				<key>Track ID</key><integer>22379</integer>
+				<key>Name</key><string>La Moglie Più Bella</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>5472661</integer>
+				<key>Total Time</key><integer>134217</integer>
+				<key>Disc Number</key><integer>1</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>19</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:22Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>549B27C2ECBDA9DB</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD1/19%20-%20La%20Moglie%20Pi%C3%B9%20Bella.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22381</key>
+			<dict>
+				<key>Track ID</key><integer>22381</integer>
+				<key>Name</key><string>Per Un Pugno Di Dollari</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>4471659</integer>
+				<key>Total Time</key><integer>109191</integer>
+				<key>Disc Number</key><integer>1</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>20</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:22Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>2CDEA3CFE9633575</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD1/20%20-%20Per%20Un%20Pugno%20Di%20Dollari.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22383</key>
+			<dict>
+				<key>Track ID</key><integer>22383</integer>
+				<key>Name</key><string>Deborah's Theme</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>10807897</integer>
+				<key>Total Time</key><integer>267598</integer>
+				<key>Disc Number</key><integer>2</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>1</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:51Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>D997B75398A7E8F6</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD2/01%20-%20Deborah's%20Theme.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22385</key>
+			<dict>
+				<key>Track ID</key><integer>22385</integer>
+				<key>Name</key><string>L'Estasi Dell'Oro</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>8266711</integer>
+				<key>Total Time</key><integer>204068</integer>
+				<key>Disc Number</key><integer>2</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>2</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T15:53:51Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Skip Count</key><integer>1</integer>
+				<key>Skip Date</key><date>2020-05-09T14:51:19Z</date>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>C125390F998800A2</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD2/02%20-%20L'Estasi%20Dell'Oro.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22387</key>
+			<dict>
+				<key>Track ID</key><integer>22387</integer>
+				<key>Name</key><string>The Mission</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>6954301</integer>
+				<key>Total Time</key><integer>171258</integer>
+				<key>Disc Number</key><integer>2</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>3</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:51Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Sort Name</key><string>Mission</string>
+				<key>Persistent ID</key><string>2D352C34D2D154D2</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD2/03%20-%20The%20Mission.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22389</key>
+			<dict>
+				<key>Track ID</key><integer>22389</integer>
+				<key>Name</key><string>Dal Sex Appeal Al Primo Fellini</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>8472598</integer>
+				<key>Total Time</key><integer>209214</integer>
+				<key>Disc Number</key><integer>2</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>4</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T15:53:51Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Skip Count</key><integer>1</integer>
+				<key>Skip Date</key><date>2020-05-09T14:51:55Z</date>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>CACD6A16E16568DD</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD2/04%20-%20Dal%20Sex%20Appeal%20Al%20Primo%20Fellini.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22391</key>
+			<dict>
+				<key>Track ID</key><integer>22391</integer>
+				<key>Name</key><string>L'Uomo Dell'Armonica</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>8498687</integer>
+				<key>Total Time</key><integer>209867</integer>
+				<key>Disc Number</key><integer>2</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>5</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:51Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>37B8665BE26F4F5E</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD2/05%20-%20L'Uomo%20Dell'Armonica.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22393</key>
+			<dict>
+				<key>Track ID</key><integer>22393</integer>
+				<key>Name</key><string>Il Segreto Del Sahara</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>10999131</integer>
+				<key>Total Time</key><integer>272378</integer>
+				<key>Disc Number</key><integer>2</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>6</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:51Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>8E29300FB7ACDD04</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD2/06%20-%20Il%20Segreto%20Del%20Sahara.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22395</key>
+			<dict>
+				<key>Track ID</key><integer>22395</integer>
+				<key>Name</key><string>Algeri 1 Novembre 1954</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>6019150</integer>
+				<key>Total Time</key><integer>147879</integer>
+				<key>Disc Number</key><integer>2</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>7</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T15:53:51Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>2159BE704D618C7E</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD2/07%20-%20Algeri%201%20Novembre%201954.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22397</key>
+			<dict>
+				<key>Track ID</key><integer>22397</integer>
+				<key>Name</key><string>Forse Basta</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>9562366</integer>
+				<key>Total Time</key><integer>236460</integer>
+				<key>Disc Number</key><integer>2</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>8</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:51Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>DA8E72AB058B5D2B</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD2/08%20-%20Forse%20Basta.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22399</key>
+			<dict>
+				<key>Track ID</key><integer>22399</integer>
+				<key>Name</key><string>Il Vizietto</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>7870677</integer>
+				<key>Total Time</key><integer>194168</integer>
+				<key>Disc Number</key><integer>2</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>9</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:51Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>2F714656A1C1E788</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD2/09%20-%20Il%20Vizietto.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22401</key>
+			<dict>
+				<key>Track ID</key><integer>22401</integer>
+				<key>Name</key><string>Via Mala</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>6448561</integer>
+				<key>Total Time</key><integer>158615</integer>
+				<key>Disc Number</key><integer>2</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>10</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:51Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>06B367F102F7DEE1</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD2/10%20-%20Via%20Mala.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22403</key>
+			<dict>
+				<key>Track ID</key><integer>22403</integer>
+				<key>Name</key><string>La Cosa Buffa</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>7703499</integer>
+				<key>Total Time</key><integer>189988</integer>
+				<key>Disc Number</key><integer>2</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>11</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:51Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>4B6C019CB4A17DAF</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD2/11%20-%20La%20Cosa%20Buffa.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22405</key>
+			<dict>
+				<key>Track ID</key><integer>22405</integer>
+				<key>Name</key><string>Dimenticare Palermo</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>10769247</integer>
+				<key>Total Time</key><integer>266631</integer>
+				<key>Disc Number</key><integer>2</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>12</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:51Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>B8B91D416C859DBD</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD2/12%20-%20Dimenticare%20Palermo.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22407</key>
+			<dict>
+				<key>Track ID</key><integer>22407</integer>
+				<key>Name</key><string>Romanza Quartiere</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>8944850</integer>
+				<key>Total Time</key><integer>221022</integer>
+				<key>Disc Number</key><integer>2</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>13</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:51Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Skip Count</key><integer>1</integer>
+				<key>Skip Date</key><date>2017-05-24T19:36:44Z</date>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>3BE9B690F21244DE</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD2/13%20-%20Romanza%20Quartiere.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22409</key>
+			<dict>
+				<key>Track ID</key><integer>22409</integer>
+				<key>Name</key><string>Si Muore D'Amore</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>9397287</integer>
+				<key>Total Time</key><integer>232333</integer>
+				<key>Disc Number</key><integer>2</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>14</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:51Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Play Count</key><integer>1</integer>
+				<key>Play Date</key><integer>3566748382</integer>
+				<key>Play Date UTC</key><date>2017-01-08T16:26:22Z</date>
+				<key>Rating</key><integer>80</integer>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>BAF09E4D91E129D2</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD2/14%20-%20Si%20Muore%20D'Amore.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22411</key>
+			<dict>
+				<key>Track ID</key><integer>22411</integer>
+				<key>Name</key><string>Thieves After Dark</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>11524706</integer>
+				<key>Total Time</key><integer>285518</integer>
+				<key>Disc Number</key><integer>2</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>15</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:51Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>753C46122AF33B14</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD2/15%20-%20Thieves%20After%20Dark.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22413</key>
+			<dict>
+				<key>Track ID</key><integer>22413</integer>
+				<key>Name</key><string>Estate 1943</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>9779705</integer>
+				<key>Total Time</key><integer>241893</integer>
+				<key>Disc Number</key><integer>2</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>16</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:51Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>8270D1ACB61CE09C</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD2/16%20-%20Estate%201943.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22415</key>
+			<dict>
+				<key>Track ID</key><integer>22415</integer>
+				<key>Name</key><string>Viva La Revolucion</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>10646991</integer>
+				<key>Total Time</key><integer>263575</integer>
+				<key>Disc Number</key><integer>2</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>17</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:51Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Rating</key><integer>80</integer>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>6BEB90111141E2F9</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD2/17%20-%20Viva%20La%20Revolucion.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22417</key>
+			<dict>
+				<key>Track ID</key><integer>22417</integer>
+				<key>Name</key><string>Venuta Dal Mare</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>5327407</integer>
+				<key>Total Time</key><integer>130586</integer>
+				<key>Disc Number</key><integer>2</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>18</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:51Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>97B6F69A41D62B37</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD2/18%20-%20Venuta%20Dal%20Mare.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22419</key>
+			<dict>
+				<key>Track ID</key><integer>22419</integer>
+				<key>Name</key><string>Il Vento Il Grido</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>4589715</integer>
+				<key>Total Time</key><integer>112143</integer>
+				<key>Disc Number</key><integer>2</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>19</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:51Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>E99E2B8B47982875</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD2/19%20-%20Il%20Vento%20Il%20Grido.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22421</key>
+			<dict>
+				<key>Track ID</key><integer>22421</integer>
+				<key>Name</key><string>La Tragedia Di Un Uomo Ridicolo</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>5429855</integer>
+				<key>Total Time</key><integer>133146</integer>
+				<key>Disc Number</key><integer>2</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>20</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:53:51Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>D26F14055BA8FE66</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD2/20%20-%20La%20Tragedia%20Di%20Un%20Uomo%20Ridicolo.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22423</key>
+			<dict>
+				<key>Track ID</key><integer>22423</integer>
+				<key>Name</key><string>Giù La Testa</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>10449451</integer>
+				<key>Total Time</key><integer>258638</integer>
+				<key>Disc Number</key><integer>3</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>1</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:54:00Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>525B526FB0BBFB93</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD3/01%20-%20Gi%C3%B9%20La%20Testa.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22425</key>
+			<dict>
+				<key>Track ID</key><integer>22425</integer>
+				<key>Name</key><string>Indagine</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>8543544</integer>
+				<key>Total Time</key><integer>210991</integer>
+				<key>Disc Number</key><integer>3</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>2</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:54:00Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>6C6DC72016D60A69</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD3/02%20-%20Indagine.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22427</key>
+			<dict>
+				<key>Track ID</key><integer>22427</integer>
+				<key>Name</key><string>Maturità</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>5358696</integer>
+				<key>Total Time</key><integer>131369</integer>
+				<key>Disc Number</key><integer>3</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>3</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:54:00Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>23684A1C4DDDDB22</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD3/03%20-%20Maturit%C3%A0.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22429</key>
+			<dict>
+				<key>Track ID</key><integer>22429</integer>
+				<key>Name</key><string>Per Qualche Dollaro In Piu</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>7088055</integer>
+				<key>Total Time</key><integer>174602</integer>
+				<key>Disc Number</key><integer>3</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>4</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:54:00Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Play Count</key><integer>1</integer>
+				<key>Play Date</key><integer>3550159764</integer>
+				<key>Play Date UTC</key><date>2016-06-30T16:29:24Z</date>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>C0B356C276B9D637</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD3/04%20-%20Per%20Qualche%20Dollaro%20In%20Pi%C3%B9.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22431</key>
+			<dict>
+				<key>Track ID</key><integer>22431</integer>
+				<key>Name</key><string>Romanzo</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>10120292</integer>
+				<key>Total Time</key><integer>250409</integer>
+				<key>Disc Number</key><integer>3</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>5</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:54:00Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>AC3F9C97488D3FB1</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD3/05%20-%20Romanzo.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22433</key>
+			<dict>
+				<key>Track ID</key><integer>22433</integer>
+				<key>Name</key><string>The Falls</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>4752657</integer>
+				<key>Total Time</key><integer>116218</integer>
+				<key>Disc Number</key><integer>3</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>6</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:54:00Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Sort Name</key><string>Falls</string>
+				<key>Persistent ID</key><string>1B9CF05D7DA5B286</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD3/06%20-%20The%20Falls.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22435</key>
+			<dict>
+				<key>Track ID</key><integer>22435</integer>
+				<key>Name</key><string>Questa Specie D'Amore</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>6390048</integer>
+				<key>Total Time</key><integer>157152</integer>
+				<key>Disc Number</key><integer>3</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>7</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:54:00Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>83BF26D4C9FF5ACD</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD3/07%20-%20Questa%20Specie%20D'Amore.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22437</key>
+			<dict>
+				<key>Track ID</key><integer>22437</integer>
+				<key>Name</key><string>Titoli (Il Federale)</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>5171666</integer>
+				<key>Total Time</key><integer>126693</integer>
+				<key>Disc Number</key><integer>3</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>8</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:54:00Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Skip Count</key><integer>1</integer>
+				<key>Skip Date</key><date>2017-03-16T09:20:06Z</date>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>8A933030838590D6</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD3/08%20-%20Titoli.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22439</key>
+			<dict>
+				<key>Track ID</key><integer>22439</integer>
+				<key>Name</key><string>Poesia Di Una Donna</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>7989781</integer>
+				<key>Total Time</key><integer>198426</integer>
+				<key>Disc Number</key><integer>3</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>9</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:54:00Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>8A9CEDF3E4048F3C</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD3/09%20-%20Poesia%20Di%20Una%20Donna.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22441</key>
+			<dict>
+				<key>Track ID</key><integer>22441</integer>
+				<key>Name</key><string>I Crudeli</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>6525849</integer>
+				<key>Total Time</key><integer>160548</integer>
+				<key>Disc Number</key><integer>3</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>10</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:54:00Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>7B8B3C0FB6BBE824</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD3/10%20-%20I%20Crudeli.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22443</key>
+			<dict>
+				<key>Track ID</key><integer>22443</integer>
+				<key>Name</key><string>Chi Mai</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>8632357</integer>
+				<key>Total Time</key><integer>213211</integer>
+				<key>Disc Number</key><integer>3</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>11</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:54:00Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>1175B97F9C41DDE7</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD3/11%20-%20Chi%20Mai.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22445</key>
+			<dict>
+				<key>Track ID</key><integer>22445</integer>
+				<key>Name</key><string>Marche En La</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>7493433</integer>
+				<key>Total Time</key><integer>184737</integer>
+				<key>Disc Number</key><integer>3</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>12</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:54:00Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>DE843C8F9EBDC068</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD3/12%20-%20Marche%20En%20La.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22447</key>
+			<dict>
+				<key>Track ID</key><integer>22447</integer>
+				<key>Name</key><string>Cockeye's Song</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>10688737</integer>
+				<key>Total Time</key><integer>264620</integer>
+				<key>Disc Number</key><integer>3</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Track Number</key><integer>13</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Date Modified</key><date>2015-11-18T17:54:00Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>E6A14E4A21AA7AB9</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD3/13%20-%20Cockeye's%20Song.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22449</key>
+			<dict>
+				<key>Track ID</key><integer>22449</integer>
+				<key>Name</key><string>La Verité Et Le Soleil</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>7212387</integer>
+				<key>Total Time</key><integer>177711</integer>
+				<key>Disc Number</key><integer>3</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>14</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:54:00Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>0B6669ABF6D637FD</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD3/14%20-%20La%20Verit%C3%A9%20Et%20Le%20Soleil.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22451</key>
+			<dict>
+				<key>Track ID</key><integer>22451</integer>
+				<key>Name</key><string>Rivoluzione</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>6568696</integer>
+				<key>Total Time</key><integer>161619</integer>
+				<key>Disc Number</key><integer>3</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>15</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:54:00Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>7AA80F7659CF7ADB</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD3/15%20-%20Rivoluzione.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22453</key>
+			<dict>
+				<key>Track ID</key><integer>22453</integer>
+				<key>Name</key><string>L'Uomo Proiettile</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>8868534</integer>
+				<key>Total Time</key><integer>219115</integer>
+				<key>Disc Number</key><integer>3</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>16</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:54:00Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>E314C570939AFB56</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD3/16%20-%20L'Uomo%20Proiettile.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22455</key>
+			<dict>
+				<key>Track ID</key><integer>22455</integer>
+				<key>Name</key><string>Crescete E Moltiplicatevi</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>5804917</integer>
+				<key>Total Time</key><integer>142524</integer>
+				<key>Disc Number</key><integer>3</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>17</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:54:00Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>D4594DB71BB3CAB4</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD3/17%20-%20Crescete%20E%20Moltiplicatevi.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22457</key>
+			<dict>
+				<key>Track ID</key><integer>22457</integer>
+				<key>Name</key><string>Tema Di Dunja</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>6642889</integer>
+				<key>Total Time</key><integer>163474</integer>
+				<key>Disc Number</key><integer>3</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>18</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:54:00Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>F139DDB9BDF24688</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD3/18%20-%20Tema%20Di%20Dunja.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22459</key>
+			<dict>
+				<key>Track ID</key><integer>22459</integer>
+				<key>Name</key><string>La Ballata Di Hank McCain</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>5402632</integer>
+				<key>Total Time</key><integer>132466</integer>
+				<key>Disc Number</key><integer>3</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>19</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:54:00Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>3505F85434E16841</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD3/19%20-%20La%20Ballata%20Di%20Hank%20McCain.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+			<key>22461</key>
+			<dict>
+				<key>Track ID</key><integer>22461</integer>
+				<key>Name</key><string>La Ragion Pura</string>
+				<key>Artist</key><string>Ennio Morricone</string>
+				<key>Album</key><string>The Platinum Collection</string>
+				<key>Genre</key><string>Soundtrack</string>
+				<key>Kind</key><string>Аудиофайл MPEG</string>
+				<key>Size</key><integer>14946697</integer>
+				<key>Total Time</key><integer>371069</integer>
+				<key>Disc Number</key><integer>3</integer>
+				<key>Disc Count</key><integer>3</integer>
+				<key>Track Number</key><integer>20</integer>
+				<key>Track Count</key><integer>20</integer>
+				<key>Year</key><integer>2007</integer>
+				<key>Date Modified</key><date>2015-11-18T17:54:00Z</date>
+				<key>Date Added</key><date>2015-11-18T18:54:47Z</date>
+				<key>Bit Rate</key><integer>320</integer>
+				<key>Sample Rate</key><integer>44100</integer>
+				<key>Comments</key><string>andrei_47 music collection</string>
+				<key>Album Rating</key><integer>80</integer>
+				<key>Album Rating Computed</key><true/>
+				<key>Artwork Count</key><integer>1</integer>
+				<key>Sort Album</key><string>Platinum Collection</string>
+				<key>Persistent ID</key><string>2946EA6BC516BFCC</string>
+				<key>Track Type</key><string>File</string>
+				<key>Location</key><string>file://localhost/D:/music/!soundtracks/Ennio%20Morricone/(2007)%20The%20Platinum%20Collection/CD3/20%20-%20La%20Ragion%20Pura.mp3</string>
+				<key>File Folder Count</key><integer>-1</integer>
+				<key>Library Folder Count</key><integer>-1</integer>
+			</dict>
+		</dict>
+		<key>Playlists</key>
+		<array>
+			<dict>
+				<key>Name</key><string>Медиатека</string>
+				<key>Description</key><string></string>
+				<key>Master</key><true/>
+				<key>Playlist ID</key><integer>53823</integer>
+				<key>Playlist Persistent ID</key><string>05AB1EE08C4B3D7F</string>
+				<key>Visible</key><false/>
+				<key>All Items</key><true/>
+				<key>Playlist Items</key>
+				<array>
+					<dict>
+						<key>Track ID</key><integer>11621</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>11623</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>11625</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>11627</integer>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>Name</key><string>beastie boys 5★</string>
+				<key>Description</key><string></string>
+				<key>Playlist ID</key><integer>130175</integer>
+				<key>Playlist Persistent ID</key><string>8F2722B58EC10041</string>
+				<key>Parent Persistent ID</key><string>47A0072044278E89</string>
+				<key>All Items</key><true/>
+				<key>Smart Info</key>
+				<data>
+					AQEAAwAAAAIAAAAZAAAAAAAAAAcAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+					AAAAAA==
+				</data>
+				<key>Smart Criteria</key>
+				<data>
+					U0xzdAABAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAU0xzdAABAAEAAAACAAAAAQAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAADwAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+					AAAAAABEAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAB
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAg
+					AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVRTTHN0AAEAAQAAAAIAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAABAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAABgAQgBlAGEAcwB0AGkAZQAgAEIAbwB5AHMAAAAZAAABAAAAAAAAAAAA
+					AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAABkAAAAAAAA
+					AAAAAAAAAAAAAQAAAAAAAABtAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
+				</data>
+				<key>Playlist Items</key>
+				<array>
+					<dict>
+						<key>Track ID</key><integer>9657</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9729</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9743</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9753</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9771</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9857</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9869</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9939</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9947</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9949</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9953</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9963</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9973</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9977</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>10007</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>10015</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>10017</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>10021</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>10027</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9849</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9853</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9917</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>42429</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>42433</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9803</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9813</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9825</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9647</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9655</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9653</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9727</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9965</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9895</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9907</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9805</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9671</integer>
+					</dict>
+					<dict>
+						<key>Track ID</key><integer>9749</integer>
+					</dict>
+				</array>
+			</dict>
+		</array>
+	</dict>
+</plist>

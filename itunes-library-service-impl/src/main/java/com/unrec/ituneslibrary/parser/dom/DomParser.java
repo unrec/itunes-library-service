@@ -66,6 +66,13 @@ public class DomParser implements XmlParser {
         reader.read(this.file);
     }
 
+    public void reset() {
+        library = new Library();
+        tracks = new HashMap<>();
+        playlists = new HashMap<>();
+        file = null;
+    }
+
     /* HANDLERS */
     private ElementHandler getLibraryHandler() {
         return new ElementHandler() {
@@ -280,6 +287,8 @@ public class DomParser implements XmlParser {
             case "Loved":
                 track.setLoved(parseBoolean(value));
                 break;
+            case "Movie":
+                track.setMovie(parseBoolean(value));
             case "Name":
                 track.setName(value);
                 break;

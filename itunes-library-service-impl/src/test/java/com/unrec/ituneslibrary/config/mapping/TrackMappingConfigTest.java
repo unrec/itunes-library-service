@@ -65,7 +65,6 @@ class TrackMappingConfigTest {
 
         assertThat(actual)
                 .usingRecursiveComparison()
-//                .ignoringActualNullFields()
                 .isEqualTo(expected);
     }
 

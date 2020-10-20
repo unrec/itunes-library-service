@@ -1,9 +1,11 @@
 package com.unrec.ituneslibrary;
 
+import com.unrec.ituneslibrary.parser.dom.DomParser;
 import com.unrec.ituneslibrary.repository.AlbumRepository;
 import com.unrec.ituneslibrary.repository.ArtistRepository;
 import com.unrec.ituneslibrary.repository.PlaylistRepository;
 import com.unrec.ituneslibrary.repository.TrackRepository;
+import com.unrec.ituneslibrary.service.LibraryDatabaseService;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +22,11 @@ import static org.springframework.boot.test.context.SpringBootTest.WebEnvironmen
 public abstract class IntegrationTest {
 
     @Autowired
+    protected DomParser parser;
+    @Autowired
+    protected LibraryDatabaseService libraryDatabaseService;
+
+    @Autowired
     protected TrackRepository trackRepository;
     @Autowired
     protected AlbumRepository albumRepository;
@@ -31,11 +38,12 @@ public abstract class IntegrationTest {
     protected PlaylistRepository playlistRepository;
 
     @AfterEach
-    void clearDb() {
+    void reset() {
         trackRepository.deleteAll();
         albumRepository.deleteAll();
         artistRepository.deleteAll();
         playlistRepository.deleteAll();
+        parser.reset();
     }
 
     public <T> T doInTransaction(Supplier<T> method) {

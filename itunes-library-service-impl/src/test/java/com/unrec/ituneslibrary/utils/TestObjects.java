@@ -22,9 +22,11 @@ import static java.lang.Boolean.TRUE;
 @UtilityClass
 public class TestObjects {
 
-    public static final String SAMPLE_LIBRARY_PATH = "src/test/resources/sample-library.xml";
-    public static final String SAMPLE_LIBRARY_MULTI_DISC_PATH = "src/test/resources/sample-library-multi-disc.xml";
-    public static final String FULL_LIBRARY_PATH = "src/test/resources/full-library.xml";
+    public static final String FULL_LIBRARY_PATH = "src/test/resources/library/full-library.xml";
+    public static final String SAMPLE_LIBRARY_PATH = "src/test/resources/library/sample-library.xml";
+    public static final String SAMPLE_LIBRARY_NON_ALBUM_PATH = "src/test/resources/library/sample-library-non-album.xml";
+    public static final String SAMPLE_LIBRARY_MULTI_DISC_PATH = "src/test/resources/library/sample-library-multi-disc.xml";
+
     private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss'Z'");
 
     /* MAPPING OBJECTS */
@@ -123,7 +125,7 @@ public class TestObjects {
 
     public static Album album(AlbumWithArtist src) {
         return new Album()
-                .setName(src.getArtist())
+                .setName(src.getAlbum())
                 .setYear(src.getYear())
                 .setAlbumArtist(src.getAlbumArtist())
                 .setCompilation(src.getCompilation())

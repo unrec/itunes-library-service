@@ -40,6 +40,7 @@ public class TrackRecord {
     private Integer libraryFolderCount;
     private URL location;
     private Boolean loved;
+    private Boolean movie;
     private String name;
     private Integer normalization;
     private Boolean partOfGaplessAlbum;

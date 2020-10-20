@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Major Version</key><integer>1</integer>
+        <key>Minor Version</key><integer>1</integer>
+        <key>Date</key><date>2020-09-29T15:14:05Z</date>
+        <key>Application Version</key><string>12.10.9.3</string>
+        <key>Features</key><integer>5</integer>
+        <key>Show Content Ratings</key><true/>
+        <key>Music Folder</key><string>file://localhost/D:/music/!itunes/iTunes%20Media/iTunes%20Media/</string>
+        <key>Library Persistent ID</key><string>DFB4D882E87C2F12</string>
+        <key>Tracks</key>
+        <dict>
+            <key>7851</key>
+            <dict>
+                <key>Track ID</key><integer>7851</integer>
+                <key>Name</key><string>"Носферату. Симфония ужаса"</string>
+                <key>Album</key><string>100 лучших фильмов ХХ века</string>
+                <key>Genre</key><string>Подкаст</string>
+                <key>Kind</key><string>Аудиофайл MPEG</string>
+                <key>Size</key><integer>22073958</integer>
+                <key>Total Time</key><integer>2760000</integer>
+                <key>Year</key><integer>2011</integer>
+                <key>Date Modified</key><date>2015-08-06T18:22:19Z</date>
+                <key>Date Added</key><date>2015-08-06T19:22:19Z</date>
+                <key>Bit Rate</key><integer>64</integer>
+                <key>Sample Rate</key><integer>44100</integer>
+                <key>Play Count</key><integer>1</integer>
+                <key>Play Date</key><integer>3541613359</integer>
+                <key>Play Date UTC</key><date>2016-03-23T18:29:19Z</date>
+                <key>Release Date</key><date>2011-10-22T15:05:00Z</date>
+                <key>Persistent ID</key><string>B3D9F66770ECB179</string>
+                <key>Track Type</key><string>URL</string>
+                <key>Podcast</key><true/>
+                <key>Location</key><string>http://player.rutv.ru/audio/mp3/test/047/315.mp3</string>
+            </dict>
+            <key>7853</key>
+            <dict>
+                <key>Track ID</key><integer>7853</integer>
+                <key>Name</key><string>Тарковский и Кубрик</string>
+                <key>Album</key><string>Спутник кинозрителя</string>
+                <key>Genre</key><string>Подкаст</string>
+                <key>Kind</key><string>Аудиофайл MPEG</string>
+                <key>Size</key><integer>37673256</integer>
+                <key>Total Time</key><integer>2355000</integer>
+                <key>Year</key><integer>2015</integer>
+                <key>Date Modified</key><date>2015-08-06T18:29:44Z</date>
+                <key>Date Added</key><date>2015-08-06T19:29:44Z</date>
+                <key>Bit Rate</key><integer>128</integer>
+                <key>Sample Rate</key><integer>44100</integer>
+                <key>Play Count</key><integer>1</integer>
+                <key>Play Date</key><integer>3541613489</integer>
+                <key>Play Date UTC</key><date>2016-03-23T18:31:29Z</date>
+                <key>Release Date</key><date>2015-06-15T14:00:00Z</date>
+                <key>Persistent ID</key><string>628EF6E71B52268D</string>
+                <key>Track Type</key><string>URL</string>
+                <key>Podcast</key><true/>
+                <key>Location</key><string>http://player.rutv.ru/audio/mp3/test/171/981.mp3</string>
+            </dict>
+            <key>27293</key>
+            <dict>
+                <key>Track ID</key><integer>27293</integer>
+                <key>Name</key><string>Лучшее. "Последний бойскаут", "Иван Васильевич меняет профессию"</string>
+                <key>Album</key><string>Спутник кинозрителя</string>
+                <key>Genre</key><string>Подкаст</string>
+                <key>Kind</key><string>Аудиофайл MPEG</string>
+                <key>Size</key><integer>21282347</integer>
+                <key>Total Time</key><integer>1329397</integer>
+                <key>Year</key><integer>2016</integer>
+                <key>Date Modified</key><date>2016-03-23T18:31:41Z</date>
+                <key>Date Added</key><date>2016-03-23T18:31:41Z</date>
+                <key>Bit Rate</key><integer>128</integer>
+                <key>Sample Rate</key><integer>44100</integer>
+                <key>Play Count</key><integer>1</integer>
+                <key>Play Date</key><integer>3541613489</integer>
+                <key>Play Date UTC</key><date>2016-03-23T18:31:29Z</date>
+                <key>Release Date</key><date>2016-03-03T09:30:00Z</date>
+                <key>Persistent ID</key><string>CA61C11ED353D9E7</string>
+                <key>Track Type</key><string>URL</string>
+                <key>Podcast</key><true/>
+                <key>Location</key><string>http://player.rutv.ru/audio/mp3/test/223/919.mp3</string>
+            </dict>
+            <key>34895</key>
+            <dict>
+                <key>Track ID</key><integer>34895</integer>
+                <key>Name</key><string>PP32 | Fast vs. First</string>
+                <key>Artist</key><string>ALsensei</string>
+                <key>Album</key><string>English 2.0 Podcast: How to Improve English | ESL | Learn English</string>
+                <key>Genre</key><string>Подкаст</string>
+                <key>Kind</key><string>Видеофайл MPEG-4</string>
+                <key>Size</key><integer>69379799</integer>
+                <key>Total Time</key><integer>460245</integer>
+                <key>Year</key><integer>2017</integer>
+                <key>Date Modified</key><date>2017-03-24T19:52:52Z</date>
+                <key>Date Added</key><date>2017-03-24T19:52:52Z</date>
+                <key>Bit Rate</key><integer>120</integer>
+                <key>Release Date</key><date>2017-03-21T10:36:35Z</date>
+                <key>Artwork Count</key><integer>1</integer>
+                <key>Persistent ID</key><string>EAB99945C05A7AFD</string>
+                <key>Track Type</key><string>URL</string>
+                <key>Podcast</key><true/>
+                <key>Has Video</key><true/>
+                <key>HD</key><false/>
+                <key>Video Width</key><integer>640</integer>
+                <key>Video Height</key><integer>360</integer>
+                <key>Movie</key><true/>
+                <key>Location</key><string>http://traffic.libsyn.com/alsensei/pronunciation-point-32.mp4</string>
+            </dict>
+            <key>39445</key>
+            <dict>
+                <key>Track ID</key><integer>39445</integer>
+                <key>Name</key><string>Wind River (2017)</string>
+                <key>Artist</key><string>Taylor Sheridan</string>
+                <key>Genre</key><string>Action &#38; Adventure</string>
+                <key>Kind</key><string>Видеофайл MPEG-4</string>
+                <key>Size</key><integer>7480557899</integer>
+                <key>Total Time</key><integer>6407232</integer>
+                <key>Year</key><integer>2017</integer>
+                <key>Date Modified</key><date>2018-01-26T17:10:07Z</date>
+                <key>Date Added</key><date>2018-01-26T17:59:53Z</date>
+                <key>Bit Rate</key><integer>153</integer>
+                <key>Release Date</key><date>2017-01-21T08:00:00Z</date>
+                <key>Artwork Count</key><integer>1</integer>
+                <key>Sort Name</key><string>Wind River</string>
+                <key>Persistent ID</key><string>1A6D2BF0B37954F4</string>
+                <key>Content Rating</key><string>mpaa|R|400|Rated R for strong violence, a rape, disturbing images, and language.</string>
+                <key>Track Type</key><string>File</string>
+                <key>Purchased</key><true/>
+                <key>Has Video</key><true/>
+                <key>HD</key><true/>
+                <key>Video Width</key><integer>1920</integer>
+                <key>Video Height</key><integer>800</integer>
+                <key>Movie</key><true/>
+                <key>Location</key><string>file://localhost/D:/download/Wind%20River%20(1080p%20HD).m4v</string>
+                <key>File Folder Count</key><integer>-1</integer>
+                <key>Library Folder Count</key><integer>-1</integer>
+            </dict>
+        </dict>
+    </dict>
+</plist>

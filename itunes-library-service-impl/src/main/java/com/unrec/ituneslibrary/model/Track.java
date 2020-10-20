@@ -7,6 +7,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.Lob;
 import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.PreRemove;
@@ -52,6 +53,7 @@ public class Track implements Serializable {
     private LocalDateTime releaseDate;
 
     /* File properties */
+    @Lob
     @Column
     private URL location;
     @Column
@@ -88,6 +90,10 @@ public class Track implements Serializable {
     private Boolean purchased;
     @Column
     private String trackType;
+    @Column
+    private Boolean podcast;
+    @Column
+    private Boolean movie;
 
     @Override
     public int hashCode() {
