@@ -40,9 +40,9 @@ class DomParserTest {
     @Test
     void test_ParseTracks() {
         Map<Integer, TrackRecord> tracks = parser.getTracks();
-        assertEquals(12, tracks.size());
+        assertEquals(15, tracks.size());
         assertTrue(tracks.keySet().containsAll(Arrays.asList(
-                3585, 3601, 3587, 3603, 3589, 3591, 3593, 3595, 3581, 3597, 3583, 3599)));
+                9459, 9461, 9463, 9465, 9467, 9469, 9471, 9473, 9475, 9477, 9479, 9481, 9483, 9485, 9487)));
     }
 
     @Test

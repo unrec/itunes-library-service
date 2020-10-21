@@ -16,16 +16,16 @@ class LibraryDatabaseServiceTest extends IntegrationTest {
     void loadFullDatabase() throws DocumentException {
         initDataBaseService(FULL_LIBRARY_PATH);
 
-        assertEquals(25091, trackRepository.count());
-        assertEquals(2727, albumRepository.count());
-        assertEquals(1515, artistRepository.count());
+        assertEquals(24782, trackRepository.count());
+        assertEquals(1888, albumRepository.count());
+        assertEquals(1494, artistRepository.count());
     }
 
     @Test
     void loadSampleDatabase() throws DocumentException {
         initDataBaseService(SAMPLE_LIBRARY_PATH);
 
-        assertEquals(12, trackRepository.count());
+        assertEquals(15, trackRepository.count());
         assertEquals(1, albumRepository.count());
         assertEquals(1, artistRepository.count());
     }
@@ -34,7 +34,7 @@ class LibraryDatabaseServiceTest extends IntegrationTest {
     void loadSampleDatabase_saveNonAlbumRecords() throws DocumentException {
         initDataBaseService(SAMPLE_LIBRARY_NON_ALBUM_PATH);
 
-        assertEquals(5, trackRepository.count());
+        assertEquals(0, trackRepository.count());
         assertEquals(0, albumRepository.count());
         assertEquals(0, artistRepository.count());
     }
@@ -48,8 +48,8 @@ class LibraryDatabaseServiceTest extends IntegrationTest {
         assertEquals(1, artistRepository.count());
 
         var album = albumRepository.findAll().get(0);
-        assertEquals("The Platinum Collection", album.getName());
-        assertEquals(2007, album.getYear());
+        assertEquals("The Platinum Collection", album.getId().getName());
+        assertEquals(2007, album.getId().getYear());
         assertEquals(3, album.getTrackDiscInfo().size());
 
         var artist = artistRepository.findAll().get(0);

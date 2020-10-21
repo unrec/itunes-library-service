@@ -7,7 +7,6 @@ import com.unrec.ituneslibrary.parser.dom.DomParser;
 import com.unrec.ituneslibrary.parser.dom.TrackRecord;
 import com.unrec.ituneslibrary.repository.AlbumRepository;
 import com.unrec.ituneslibrary.repository.ArtistRepository;
-import com.unrec.ituneslibrary.repository.PlaylistRepository;
 import com.unrec.ituneslibrary.repository.TrackRepository;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -20,14 +19,18 @@ import org.springframework.stereotype.Service;
 import javax.transaction.Transactional;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
+import static java.lang.Boolean.FALSE;
 import static java.lang.Boolean.TRUE;
 
 @Service
 @RequiredArgsConstructor
 public class LibraryDatabaseService {
+
+    public static final String VARIOUS_ARTISTS = "VARIOUS_ARTISTS";
 
     private final DomParser parser;
     private final MapperFacade mapperFacade;
@@ -35,46 +38,74 @@ public class LibraryDatabaseService {
     private final TrackRepository trackRepository;
     private final AlbumRepository albumRepository;
     private final ArtistRepository artistRepository;
-    private final PlaylistRepository playlistRepository;
 
-    private List<Track> tracks;
+    private List<Track> validTracks;
     private Map<AlbumWithArtist, AlbumWithArtist> albumWithArtistMap;
-    private List<Artist> artists;
-//    private List<Playlist> playlists;
+    private HashSet<Artist> artists;
+
+    private List<TrackRecord> audiobooks;
+    private List<TrackRecord> podcasts;
+    private List<TrackRecord> deficientRecords;
 
     public void preloadData() throws DocumentException {
-        parser.parse();
-
-        tracks = new ArrayList<>();
-        artists = new ArrayList<>();
+        validTracks = new ArrayList<>();
         albumWithArtistMap = new HashMap<>();
-//        playlists = new ArrayList<>();
+        artists = new HashSet<>();
 
+        audiobooks = new ArrayList<>();
+        podcasts = new ArrayList<>();
+        deficientRecords = new ArrayList<>();
+
+        boolean hasCompilations = false;
+
+        parser.parse();
         ArrayList<TrackRecord> trackRecords = new ArrayList<>(parser.getTracks().values());
-        for (TrackRecord trackRecord : trackRecords) {
-            var track = mapperFacade.map(trackRecord, Track.class);
-            tracks.add(track);
+        for (TrackRecord record : trackRecords) {
 
-            /* fill data to albumWithArtist objects */
-
-            // filter records without required data
-            if (trackRecord.getAlbum() == null || trackRecord.getArtist() == null
-                    || TRUE.equals(trackRecord.getPodcast()) || TRUE.equals(trackRecord.getMovie())) {
+            // Handle non-music records
+            if (isMovie(record)) {
+                continue;
+            }
+            if (isAudiobook(record)) {
+                audiobooks.add(record);
+                continue;
+            }
+            if (isPodcast(record)) {
+                podcasts.add(record);
+                continue;
+            }
+            if (!isValidRecord(record)) {
+                deficientRecords.add(record);
                 continue;
             }
 
-            // map track and disc info to an albumWithArtist object
-            var albumWithArtist = mapperFacade.map(trackRecord, AlbumWithArtist.class);
-            int discNumber = trackRecord.getDiscNumber() != null ? trackRecord.getDiscNumber() : 1;
-            int trackCount = trackRecord.getTrackCount() != null ? trackRecord.getTrackCount() : 1;
+            /* Fill data to albumWithArtist objects */
+            var artist = mapperFacade.map(record, Artist.class);
+            artists.add(artist);
+            if (hasCompilations) {
+                artists.add(new Artist(VARIOUS_ARTISTS));
+            }
+
+            var track = mapperFacade.map(record, Track.class);
+            validTracks.add(track);
+
+            // Map track and disc info to an albumWithArtist object
+            var albumWithArtist = mapperFacade.map(record, AlbumWithArtist.class);
+            if (TRUE.equals(albumWithArtist.getCompilation())) {
+                albumWithArtist.setArtist(VARIOUS_ARTISTS);
+                hasCompilations = true;
+            }
+            int discNumber = record.getDiscNumber() != null ? record.getDiscNumber() : 1;
+            int trackCount = record.getTrackCount() != null ? record.getTrackCount() : 1;
             if (!albumWithArtistMap.containsKey(albumWithArtist)) {
                 albumWithArtist.addDiscInfo(discNumber, trackCount);
                 albumWithArtistMap.put(albumWithArtist, albumWithArtist);
             } else {
                 albumWithArtistMap.compute(albumWithArtist, (k, v) -> v.addDiscInfo(discNumber, trackCount));
             }
-            Artist artist = mapperFacade.map(trackRecord, Artist.class);
-            artists.add(artist);
+        }
+        if (hasCompilations) {
+            artists.add(new Artist(VARIOUS_ARTISTS));
         }
         // TODO: add playlist handling
     }
@@ -85,9 +116,28 @@ public class LibraryDatabaseService {
         saveTracks();
     }
 
+    private boolean isAudiobook(TrackRecord record) {
+        return "Audiobooks".equalsIgnoreCase(record.getGenre())
+                || "Аудиокниги".equalsIgnoreCase(record.getGenre());
+    }
+
+    private boolean isPodcast(TrackRecord record) {
+        return record.getPodcast() == null ? FALSE : record.getPodcast();
+    }
+
+    private boolean isMovie(TrackRecord record) {
+        return record.getMovie() == null ? FALSE : record.getMovie();
+    }
+
+    private boolean isValidRecord(TrackRecord trackRecord) {
+        return trackRecord.getAlbum() != null
+                && trackRecord.getArtist() != null
+                && trackRecord.getYear() != null;
+    }
+
     @Transactional
     private void saveTracks() {
-        List<Track> mappedTracks = tracks.stream()
+        List<Track> mappedTracks = validTracks.stream()
                 .map(track -> mapperFacade.map(track, Track.class))
                 .collect(Collectors.toList());
         trackRepository.saveAll(mappedTracks);
@@ -103,11 +153,7 @@ public class LibraryDatabaseService {
 
     @Transactional
     private void saveArtists() {
-        List<Artist> mappedArtists = albumWithArtistMap.keySet().stream()
-                .map(record -> mapperFacade.map(record, Artist.class))
-                .collect(Collectors.toList());
-
-        artistRepository.saveAll((mappedArtists));
+        artistRepository.saveAll(artists);
     }
 
     @Getter

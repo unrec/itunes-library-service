@@ -12,534 +12,468 @@
 	<key>Library Persistent ID</key><string>DFB4D882E87C2F12</string>
 	<key>Tracks</key>
 	<dict>
-		<key>3581</key>
+		<key>9459</key>
 		<dict>
-			<key>Track ID</key><integer>3581</integer>
-			<key>Name</key><string>Sincerely Nemis</string>
-			<key>Artist</key><string>Jaded Incorporated</string>
-			<key>Album Artist</key><string>Jaded Incorporated</string>
-			<key>Composer</key><string>Andrew Cohen &#38; Kendall Tucker</string>
-			<key>Album</key><string>The Big Knock</string>
-			<key>Genre</key><string>Electronic</string>
-			<key>Kind</key><string>Купленное аудио AAC</string>
-			<key>Size</key><integer>3478749</integer>
-			<key>Total Time</key><integer>93284</integer>
-			<key>Disc Number</key><integer>1</integer>
-			<key>Disc Count</key><integer>1</integer>
-			<key>Track Number</key><integer>9</integer>
-			<key>Track Count</key><integer>12</integer>
-			<key>Year</key><integer>2014</integer>
-			<key>Date Modified</key><date>2015-11-26T15:23:07Z</date>
-			<key>Date Added</key><date>2014-06-19T15:47:39Z</date>
-			<key>Bit Rate</key><integer>256</integer>
+			<key>Track ID</key><integer>9459</integer>
+			<key>Name</key><string>Intro</string>
+			<key>Artist</key><string>Aerosmith</string>
+			<key>Album</key><string>Get a Grip</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Аудиофайл MPEG</string>
+			<key>Size</key><integer>2374011</integer>
+			<key>Total Time</key><integer>41456</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>1993</integer>
+			<key>Date Modified</key><date>2015-09-15T18:33:52Z</date>
+			<key>Date Added</key><date>2015-09-15T19:42:22Z</date>
+			<key>Bit Rate</key><integer>320</integer>
 			<key>Sample Rate</key><integer>44100</integer>
 			<key>Comments</key><string>andrei_47 music collection</string>
-			<key>Play Count</key><integer>18</integer>
-			<key>Play Date</key><integer>3597034173</integer>
-			<key>Play Date UTC</key><date>2017-12-25T05:09:33Z</date>
-			<key>Skip Count</key><integer>4</integer>
-			<key>Skip Date</key><date>2018-01-29T14:17:16Z</date>
-			<key>Release Date</key><date>2014-06-17T07:00:00Z</date>
-			<key>Rating</key><integer>80</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3532362998</integer>
+			<key>Play Date UTC</key><date>2015-12-07T16:56:38Z</date>
+			<key>Rating</key><integer>20</integer>
 			<key>Album Rating</key><integer>80</integer>
 			<key>Album Rating Computed</key><true/>
-			<key>Normalization</key><integer>87</integer>
-			<key>Compilation</key><true/>
 			<key>Artwork Count</key><integer>1</integer>
-			<key>Sort Album</key><string>The Big Knock</string>
-			<key>Sort Artist</key><string>Jaded Incorporated</string>
-			<key>Sort Name</key><string>Sincerely Nemis</string>
-			<key>Persistent ID</key><string>1517D59E2504D3E7</string>
+			<key>Persistent ID</key><string>8E5B993285580741</string>
 			<key>Track Type</key><string>File</string>
-			<key>Purchased</key><true/>
-			<key>Location</key><string>file://localhost/D:/music/Jaded%20Incorporated/(2014)%20The%20Big%20Knock/09%20-%20Sincerely%20Nemis.m4a</string>
+			<key>Location</key><string>file://localhost/D:/music/Aerosmith/(1993)%20Get%20a%20Grip/01%20-%20Intro.mp3</string>
 			<key>File Folder Count</key><integer>-1</integer>
 			<key>Library Folder Count</key><integer>-1</integer>
 		</dict>
-		<key>3583</key>
+		<key>9461</key>
 		<dict>
-			<key>Track ID</key><integer>3583</integer>
-			<key>Name</key><string>Cubicle</string>
-			<key>Artist</key><string>Jaded Incorporated</string>
-			<key>Album Artist</key><string>Jaded Incorporated</string>
-			<key>Composer</key><string>Andrew Cohen &#38; Kendall Tucker</string>
-			<key>Album</key><string>The Big Knock</string>
-			<key>Genre</key><string>Electronic</string>
-			<key>Kind</key><string>Купленное аудио AAC</string>
-			<key>Size</key><integer>9023167</integer>
-			<key>Total Time</key><integer>246862</integer>
-			<key>Disc Number</key><integer>1</integer>
-			<key>Disc Count</key><integer>1</integer>
-			<key>Track Number</key><integer>6</integer>
-			<key>Track Count</key><integer>12</integer>
-			<key>Year</key><integer>2014</integer>
-			<key>Date Modified</key><date>2015-11-26T15:23:07Z</date>
-			<key>Date Added</key><date>2014-06-19T15:47:39Z</date>
-			<key>Bit Rate</key><integer>256</integer>
+			<key>Track ID</key><integer>9461</integer>
+			<key>Name</key><string>Eat the Rich</string>
+			<key>Artist</key><string>Aerosmith</string>
+			<key>Album</key><string>Get a Grip</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Аудиофайл MPEG</string>
+			<key>Size</key><integer>11459066</integer>
+			<key>Total Time</key><integer>268538</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>1993</integer>
+			<key>Date Modified</key><date>2015-09-15T16:33:56Z</date>
+			<key>Date Added</key><date>2015-09-15T19:42:22Z</date>
+			<key>Bit Rate</key><integer>320</integer>
 			<key>Sample Rate</key><integer>44100</integer>
 			<key>Comments</key><string>andrei_47 music collection</string>
-			<key>Play Count</key><integer>12</integer>
-			<key>Play Date</key><integer>3630390418</integer>
-			<key>Play Date UTC</key><date>2019-01-15T06:46:58Z</date>
-			<key>Skip Count</key><integer>3</integer>
-			<key>Skip Date</key><date>2018-12-24T14:18:16Z</date>
-			<key>Release Date</key><date>2014-06-17T07:00:00Z</date>
-			<key>Rating</key><integer>80</integer>
-			<key>Album Rating</key><integer>80</integer>
-			<key>Album Rating Computed</key><true/>
-			<key>Normalization</key><integer>3369</integer>
-			<key>Compilation</key><true/>
-			<key>Artwork Count</key><integer>1</integer>
-			<key>Sort Album</key><string>The Big Knock</string>
-			<key>Sort Artist</key><string>Jaded Incorporated</string>
-			<key>Sort Name</key><string>Cubicle</string>
-			<key>Persistent ID</key><string>F377CC4A8F2D23A1</string>
-			<key>Track Type</key><string>File</string>
-			<key>Purchased</key><true/>
-			<key>Location</key><string>file://localhost/D:/music/Jaded%20Incorporated/(2014)%20The%20Big%20Knock/06%20-%20Cubicle.m4a</string>
-			<key>File Folder Count</key><integer>-1</integer>
-			<key>Library Folder Count</key><integer>-1</integer>
-		</dict>
-		<key>3585</key>
-		<dict>
-			<key>Track ID</key><integer>3585</integer>
-			<key>Name</key><string>Coconut Sofa</string>
-			<key>Artist</key><string>Jaded Incorporated</string>
-			<key>Album Artist</key><string>Jaded Incorporated</string>
-			<key>Composer</key><string>Andrew Cohen &#38; Kendall Tucker</string>
-			<key>Album</key><string>The Big Knock</string>
-			<key>Genre</key><string>Electronic</string>
-			<key>Kind</key><string>Купленное аудио AAC</string>
-			<key>Size</key><integer>8113127</integer>
-			<key>Total Time</key><integer>222857</integer>
-			<key>Disc Number</key><integer>1</integer>
-			<key>Disc Count</key><integer>1</integer>
-			<key>Track Number</key><integer>5</integer>
-			<key>Track Count</key><integer>12</integer>
-			<key>Year</key><integer>2014</integer>
-			<key>Date Modified</key><date>2015-11-26T15:23:07Z</date>
-			<key>Date Added</key><date>2014-06-19T15:47:39Z</date>
-			<key>Bit Rate</key><integer>256</integer>
-			<key>Sample Rate</key><integer>44100</integer>
-			<key>Comments</key><string>andrei_47 music collection</string>
-			<key>Play Count</key><integer>42</integer>
-			<key>Play Date</key><integer>3671641257</integer>
-			<key>Play Date UTC</key><date>2020-05-06T17:20:57Z</date>
-			<key>Skip Count</key><integer>15</integer>
-			<key>Skip Date</key><date>2020-08-28T19:23:39Z</date>
-			<key>Release Date</key><date>2014-06-17T07:00:00Z</date>
 			<key>Rating</key><integer>100</integer>
 			<key>Album Rating</key><integer>80</integer>
 			<key>Album Rating Computed</key><true/>
-			<key>Normalization</key><integer>2458</integer>
-			<key>Compilation</key><true/>
 			<key>Artwork Count</key><integer>1</integer>
-			<key>Sort Album</key><string>The Big Knock</string>
-			<key>Sort Artist</key><string>Jaded Incorporated</string>
-			<key>Sort Name</key><string>Coconut Sofa</string>
-			<key>Persistent ID</key><string>82AC211D69B01433</string>
+			<key>Persistent ID</key><string>FC799D4D0CF191F1</string>
 			<key>Track Type</key><string>File</string>
-			<key>Purchased</key><true/>
-			<key>Location</key><string>file://localhost/D:/music/Jaded%20Incorporated/(2014)%20The%20Big%20Knock/05%20-%20Coconut%20Sofa.m4a</string>
+			<key>Location</key><string>file://localhost/D:/music/Aerosmith/(1993)%20Get%20a%20Grip/02%20-%20Eat%20the%20Rich.mp3</string>
 			<key>File Folder Count</key><integer>-1</integer>
 			<key>Library Folder Count</key><integer>-1</integer>
 		</dict>
-		<key>3587</key>
+		<key>9463</key>
 		<dict>
-			<key>Track ID</key><integer>3587</integer>
-			<key>Name</key><string>Faded Photograph</string>
-			<key>Artist</key><string>Jaded Incorporated</string>
-			<key>Album Artist</key><string>Jaded Incorporated</string>
-			<key>Composer</key><string>Andrew Cohen &#38; Kendall Tucker</string>
-			<key>Album</key><string>The Big Knock</string>
-			<key>Genre</key><string>Electronic</string>
-			<key>Kind</key><string>Купленное аудио AAC</string>
-			<key>Size</key><integer>7293483</integer>
-			<key>Total Time</key><integer>202412</integer>
-			<key>Disc Number</key><integer>1</integer>
-			<key>Disc Count</key><integer>1</integer>
-			<key>Track Number</key><integer>10</integer>
-			<key>Track Count</key><integer>12</integer>
-			<key>Year</key><integer>2014</integer>
-			<key>Date Modified</key><date>2015-11-26T15:23:07Z</date>
-			<key>Date Added</key><date>2014-06-19T15:47:39Z</date>
-			<key>Bit Rate</key><integer>256</integer>
+			<key>Track ID</key><integer>9463</integer>
+			<key>Name</key><string>Get a Grip</string>
+			<key>Artist</key><string>Aerosmith</string>
+			<key>Album</key><string>Get a Grip</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Аудиофайл MPEG</string>
+			<key>Size</key><integer>10957625</integer>
+			<key>Total Time</key><integer>256000</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>1993</integer>
+			<key>Date Modified</key><date>2015-09-15T18:33:58Z</date>
+			<key>Date Added</key><date>2015-09-15T19:42:22Z</date>
+			<key>Bit Rate</key><integer>320</integer>
 			<key>Sample Rate</key><integer>44100</integer>
 			<key>Comments</key><string>andrei_47 music collection</string>
-			<key>Play Count</key><integer>3</integer>
-			<key>Play Date</key><integer>3512402387</integer>
-			<key>Play Date UTC</key><date>2015-04-20T16:19:47Z</date>
-			<key>Skip Count</key><integer>4</integer>
-			<key>Skip Date</key><date>2015-11-27T18:02:11Z</date>
-			<key>Release Date</key><date>2014-06-17T07:00:00Z</date>
+			<key>Play Count</key><integer>7</integer>
+			<key>Play Date</key><integer>3672041288</integer>
+			<key>Play Date UTC</key><date>2020-05-11T08:28:08Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2020-05-17T13:11:43Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>4E543FE33B800177</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/D:/music/Aerosmith/(1993)%20Get%20a%20Grip/03%20-%20Get%20a%20Grip.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>9465</key>
+		<dict>
+			<key>Track ID</key><integer>9465</integer>
+			<key>Name</key><string>Fever</string>
+			<key>Artist</key><string>Aerosmith</string>
+			<key>Album</key><string>Get a Grip</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Аудиофайл MPEG</string>
+			<key>Size</key><integer>11640859</integer>
+			<key>Total Time</key><integer>273084</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>1993</integer>
+			<key>Date Modified</key><date>2015-09-15T16:33:59Z</date>
+			<key>Date Added</key><date>2015-09-15T19:42:22Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>andrei_47 music collection</string>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3683567019</integer>
+			<key>Play Date UTC</key><date>2020-09-21T18:03:39Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2020-09-21T17:59:17Z</date>
 			<key>Rating</key><integer>80</integer>
 			<key>Album Rating</key><integer>80</integer>
 			<key>Album Rating Computed</key><true/>
-			<key>Normalization</key><integer>2629</integer>
-			<key>Compilation</key><true/>
 			<key>Artwork Count</key><integer>1</integer>
-			<key>Sort Album</key><string>The Big Knock</string>
-			<key>Sort Artist</key><string>Jaded Incorporated</string>
-			<key>Sort Name</key><string>Faded Photograph</string>
-			<key>Persistent ID</key><string>A67994DD643BC93D</string>
+			<key>Persistent ID</key><string>CD2E110F5013F918</string>
 			<key>Track Type</key><string>File</string>
-			<key>Purchased</key><true/>
-			<key>Location</key><string>file://localhost/D:/music/Jaded%20Incorporated/(2014)%20The%20Big%20Knock/10%20-%20Faded%20Photograph.m4a</string>
+			<key>Location</key><string>file://localhost/D:/music/Aerosmith/(1993)%20Get%20a%20Grip/04%20-%20Fever.mp3</string>
 			<key>File Folder Count</key><integer>-1</integer>
 			<key>Library Folder Count</key><integer>-1</integer>
 		</dict>
-		<key>3589</key>
+		<key>9467</key>
 		<dict>
-			<key>Track ID</key><integer>3589</integer>
-			<key>Name</key><string>Sincerely Nester</string>
-			<key>Artist</key><string>Jaded Incorporated</string>
-			<key>Album Artist</key><string>Jaded Incorporated</string>
-			<key>Composer</key><string>Andrew Cohen &#38; Kendall Tucker</string>
-			<key>Album</key><string>The Big Knock</string>
-			<key>Genre</key><string>Electronic</string>
-			<key>Kind</key><string>Купленное аудио AAC</string>
-			<key>Size</key><integer>2746753</integer>
-			<key>Total Time</key><integer>68556</integer>
-			<key>Disc Number</key><integer>1</integer>
-			<key>Disc Count</key><integer>1</integer>
-			<key>Track Number</key><integer>4</integer>
-			<key>Track Count</key><integer>12</integer>
-			<key>Year</key><integer>2014</integer>
-			<key>Date Modified</key><date>2015-11-26T15:23:07Z</date>
-			<key>Date Added</key><date>2014-06-19T15:47:39Z</date>
-			<key>Bit Rate</key><integer>256</integer>
+			<key>Track ID</key><integer>9467</integer>
+			<key>Name</key><string>Livin' on the Edge</string>
+			<key>Artist</key><string>Aerosmith</string>
+			<key>Album</key><string>Get a Grip</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Аудиофайл MPEG</string>
+			<key>Size</key><integer>16121220</integer>
+			<key>Total Time</key><integer>385097</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>1993</integer>
+			<key>Date Modified</key><date>2015-09-15T16:34:03Z</date>
+			<key>Date Added</key><date>2015-09-15T19:42:22Z</date>
+			<key>Bit Rate</key><integer>320</integer>
 			<key>Sample Rate</key><integer>44100</integer>
 			<key>Comments</key><string>andrei_47 music collection</string>
-			<key>Play Count</key><integer>6</integer>
-			<key>Play Date</key><integer>3524251540</integer>
-			<key>Play Date UTC</key><date>2015-09-04T19:45:40Z</date>
-			<key>Skip Count</key><integer>2</integer>
-			<key>Skip Date</key><date>2015-09-22T19:32:51Z</date>
-			<key>Release Date</key><date>2014-06-17T07:00:00Z</date>
+			<key>Play Count</key><integer>25</integer>
+			<key>Play Date</key><integer>3673284327</integer>
+			<key>Play Date UTC</key><date>2020-05-25T17:45:27Z</date>
+			<key>Skip Count</key><integer>7</integer>
+			<key>Skip Date</key><date>2019-09-06T13:26:51Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>97189812882746A8</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/D:/music/Aerosmith/(1993)%20Get%20a%20Grip/05%20-%20Livin'%20on%20the%20Edge.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>9469</key>
+		<dict>
+			<key>Track ID</key><integer>9469</integer>
+			<key>Name</key><string>Flesh</string>
+			<key>Artist</key><string>Aerosmith</string>
+			<key>Album</key><string>Get a Grip</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Аудиофайл MPEG</string>
+			<key>Size</key><integer>15704882</integer>
+			<key>Total Time</key><integer>374700</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>1993</integer>
+			<key>Date Modified</key><date>2015-09-15T16:34:04Z</date>
+			<key>Date Added</key><date>2015-09-15T19:42:22Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>andrei_47 music collection</string>
 			<key>Rating</key><integer>60</integer>
 			<key>Album Rating</key><integer>80</integer>
 			<key>Album Rating Computed</key><true/>
-			<key>Normalization</key><integer>38</integer>
-			<key>Compilation</key><true/>
 			<key>Artwork Count</key><integer>1</integer>
-			<key>Sort Album</key><string>The Big Knock</string>
-			<key>Sort Artist</key><string>Jaded Incorporated</string>
-			<key>Sort Name</key><string>Sincerely Nester</string>
-			<key>Persistent ID</key><string>E6E103FD4CF379CC</string>
+			<key>Persistent ID</key><string>BEE2670775D2215E</string>
 			<key>Track Type</key><string>File</string>
-			<key>Purchased</key><true/>
-			<key>Location</key><string>file://localhost/D:/music/Jaded%20Incorporated/(2014)%20The%20Big%20Knock/04%20-%20Sincerely%20Nester.m4a</string>
+			<key>Location</key><string>file://localhost/D:/music/Aerosmith/(1993)%20Get%20a%20Grip/06%20-%20Flesh.mp3</string>
 			<key>File Folder Count</key><integer>-1</integer>
 			<key>Library Folder Count</key><integer>-1</integer>
 		</dict>
-		<key>3591</key>
+		<key>9471</key>
 		<dict>
-			<key>Track ID</key><integer>3591</integer>
-			<key>Name</key><string>People Change</string>
-			<key>Artist</key><string>Jaded Incorporated</string>
-			<key>Album Artist</key><string>Jaded Incorporated</string>
-			<key>Composer</key><string>Andrew Cohen &#38; Kendall Tucker</string>
-			<key>Album</key><string>The Big Knock</string>
-			<key>Genre</key><string>Electronic</string>
-			<key>Kind</key><string>Купленное аудио AAC</string>
-			<key>Size</key><integer>9192805</integer>
-			<key>Total Time</key><integer>230223</integer>
-			<key>Disc Number</key><integer>1</integer>
-			<key>Disc Count</key><integer>1</integer>
-			<key>Track Number</key><integer>11</integer>
-			<key>Track Count</key><integer>12</integer>
-			<key>Year</key><integer>2014</integer>
-			<key>Date Modified</key><date>2015-11-26T15:23:07Z</date>
-			<key>Date Added</key><date>2014-06-19T15:47:39Z</date>
-			<key>Bit Rate</key><integer>256</integer>
-			<key>Sample Rate</key><integer>44100</integer>
-			<key>Comments</key><string>andrei_47 music collection</string>
-			<key>Play Count</key><integer>2</integer>
-			<key>Play Date</key><integer>3494854316</integer>
-			<key>Play Date UTC</key><date>2014-09-29T12:51:56Z</date>
-			<key>Skip Count</key><integer>4</integer>
-			<key>Skip Date</key><date>2016-09-01T20:57:47Z</date>
-			<key>Release Date</key><date>2014-06-17T07:00:00Z</date>
-			<key>Rating</key><integer>80</integer>
-			<key>Album Rating</key><integer>80</integer>
-			<key>Album Rating Computed</key><true/>
-			<key>Normalization</key><integer>2172</integer>
-			<key>Compilation</key><true/>
-			<key>Artwork Count</key><integer>1</integer>
-			<key>Sort Album</key><string>The Big Knock</string>
-			<key>Sort Artist</key><string>Jaded Incorporated</string>
-			<key>Sort Name</key><string>People Change</string>
-			<key>Persistent ID</key><string>9610DE9E4F67459D</string>
-			<key>Track Type</key><string>File</string>
-			<key>Purchased</key><true/>
-			<key>Location</key><string>file://localhost/D:/music/Jaded%20Incorporated/(2014)%20The%20Big%20Knock/11%20-%20People%20Change.m4a</string>
-			<key>File Folder Count</key><integer>-1</integer>
-			<key>Library Folder Count</key><integer>-1</integer>
-		</dict>
-		<key>3593</key>
-		<dict>
-			<key>Track ID</key><integer>3593</integer>
-			<key>Name</key><string>Black Future</string>
-			<key>Artist</key><string>Jaded Incorporated</string>
-			<key>Album Artist</key><string>Jaded Incorporated</string>
-			<key>Composer</key><string>Andrew Cohen &#38; Kendall Tucker</string>
-			<key>Album</key><string>The Big Knock</string>
-			<key>Genre</key><string>Electronic</string>
-			<key>Kind</key><string>Купленное аудио AAC</string>
-			<key>Size</key><integer>7964478</integer>
-			<key>Total Time</key><integer>200977</integer>
-			<key>Disc Number</key><integer>1</integer>
-			<key>Disc Count</key><integer>1</integer>
-			<key>Track Number</key><integer>1</integer>
-			<key>Track Count</key><integer>12</integer>
-			<key>Year</key><integer>2014</integer>
-			<key>Date Modified</key><date>2015-11-26T15:23:06Z</date>
-			<key>Date Added</key><date>2014-06-19T15:47:39Z</date>
-			<key>Bit Rate</key><integer>256</integer>
-			<key>Sample Rate</key><integer>44100</integer>
-			<key>Comments</key><string>andrei_47 music collection</string>
-			<key>Play Count</key><integer>22</integer>
-			<key>Play Date</key><integer>3577621244</integer>
-			<key>Play Date UTC</key><date>2017-05-14T12:40:44Z</date>
-			<key>Skip Count</key><integer>11</integer>
-			<key>Skip Date</key><date>2019-09-07T09:19:34Z</date>
-			<key>Release Date</key><date>2014-06-17T07:00:00Z</date>
-			<key>Rating</key><integer>80</integer>
-			<key>Album Rating</key><integer>80</integer>
-			<key>Album Rating Computed</key><true/>
-			<key>Normalization</key><integer>2799</integer>
-			<key>Compilation</key><true/>
-			<key>Artwork Count</key><integer>1</integer>
-			<key>Sort Album</key><string>The Big Knock</string>
-			<key>Sort Artist</key><string>Jaded Incorporated</string>
-			<key>Sort Name</key><string>Black Future</string>
-			<key>Persistent ID</key><string>7A57DB658960A8EA</string>
-			<key>Track Type</key><string>File</string>
-			<key>Purchased</key><true/>
-			<key>Location</key><string>file://localhost/D:/music/Jaded%20Incorporated/(2014)%20The%20Big%20Knock/01%20-%20Black%20Future.m4a</string>
-			<key>File Folder Count</key><integer>-1</integer>
-			<key>Library Folder Count</key><integer>-1</integer>
-		</dict>
-		<key>3595</key>
-		<dict>
-			<key>Track ID</key><integer>3595</integer>
-			<key>Name</key><string>Quantum Entanglement</string>
-			<key>Artist</key><string>Jaded Incorporated</string>
-			<key>Album Artist</key><string>Jaded Incorporated</string>
-			<key>Composer</key><string>Andrew Cohen &#38; Kendall Tucker</string>
-			<key>Album</key><string>The Big Knock</string>
-			<key>Genre</key><string>Electronic</string>
-			<key>Kind</key><string>Купленное аудио AAC</string>
-			<key>Size</key><integer>9378773</integer>
-			<key>Total Time</key><integer>248001</integer>
-			<key>Disc Number</key><integer>1</integer>
-			<key>Disc Count</key><integer>1</integer>
-			<key>Track Number</key><integer>8</integer>
-			<key>Track Count</key><integer>12</integer>
-			<key>Year</key><integer>2014</integer>
-			<key>Date Modified</key><date>2015-11-26T15:23:07Z</date>
-			<key>Date Added</key><date>2014-06-19T15:47:39Z</date>
-			<key>Bit Rate</key><integer>256</integer>
-			<key>Sample Rate</key><integer>44100</integer>
-			<key>Comments</key><string>andrei_47 music collection</string>
-			<key>Play Count</key><integer>4</integer>
-			<key>Play Date</key><integer>3503562417</integer>
-			<key>Play Date UTC</key><date>2015-01-08T08:46:57Z</date>
-			<key>Skip Count</key><integer>1</integer>
-			<key>Skip Date</key><date>2015-09-22T19:33:38Z</date>
-			<key>Release Date</key><date>2014-06-17T07:00:00Z</date>
-			<key>Rating</key><integer>80</integer>
-			<key>Album Rating</key><integer>80</integer>
-			<key>Album Rating Computed</key><true/>
-			<key>Normalization</key><integer>2527</integer>
-			<key>Compilation</key><true/>
-			<key>Artwork Count</key><integer>1</integer>
-			<key>Sort Album</key><string>The Big Knock</string>
-			<key>Sort Artist</key><string>Jaded Incorporated</string>
-			<key>Sort Name</key><string>Quantum Entanglement</string>
-			<key>Persistent ID</key><string>41B253019D2934D1</string>
-			<key>Track Type</key><string>File</string>
-			<key>Purchased</key><true/>
-			<key>Location</key><string>file://localhost/D:/music/Jaded%20Incorporated/(2014)%20The%20Big%20Knock/08%20-%20Quantum%20Entanglement.m4a</string>
-			<key>File Folder Count</key><integer>-1</integer>
-			<key>Library Folder Count</key><integer>-1</integer>
-		</dict>
-		<key>3597</key>
-		<dict>
-			<key>Track ID</key><integer>3597</integer>
-			<key>Name</key><string>The Big Knock</string>
-			<key>Artist</key><string>Jaded Incorporated</string>
-			<key>Album Artist</key><string>Jaded Incorporated</string>
-			<key>Composer</key><string>Andrew Cohen &#38; Kendall Tucker</string>
-			<key>Album</key><string>The Big Knock</string>
-			<key>Genre</key><string>Electronic</string>
-			<key>Kind</key><string>Купленное аудио AAC</string>
-			<key>Size</key><integer>9356289</integer>
-			<key>Total Time</key><integer>249345</integer>
-			<key>Disc Number</key><integer>1</integer>
-			<key>Disc Count</key><integer>1</integer>
-			<key>Track Number</key><integer>12</integer>
-			<key>Track Count</key><integer>12</integer>
-			<key>Year</key><integer>2014</integer>
-			<key>Date Modified</key><date>2015-11-26T15:23:07Z</date>
-			<key>Date Added</key><date>2014-06-19T15:47:39Z</date>
-			<key>Bit Rate</key><integer>256</integer>
-			<key>Sample Rate</key><integer>44100</integer>
-			<key>Comments</key><string>andrei_47 music collection</string>
-			<key>Play Count</key><integer>10</integer>
-			<key>Play Date</key><integer>3630392469</integer>
-			<key>Play Date UTC</key><date>2019-01-15T07:21:09Z</date>
-			<key>Skip Count</key><integer>4</integer>
-			<key>Skip Date</key><date>2017-10-21T01:42:44Z</date>
-			<key>Release Date</key><date>2014-06-17T07:00:00Z</date>
-			<key>Rating</key><integer>80</integer>
-			<key>Album Rating</key><integer>80</integer>
-			<key>Album Rating Computed</key><true/>
-			<key>Normalization</key><integer>844</integer>
-			<key>Compilation</key><true/>
-			<key>Artwork Count</key><integer>1</integer>
-			<key>Sort Album</key><string>The Big Knock</string>
-			<key>Sort Artist</key><string>Jaded Incorporated</string>
-			<key>Sort Name</key><string>The Big Knock</string>
-			<key>Persistent ID</key><string>C0A53D17EB52E4F2</string>
-			<key>Track Type</key><string>File</string>
-			<key>Purchased</key><true/>
-			<key>Location</key><string>file://localhost/D:/music/Jaded%20Incorporated/(2014)%20The%20Big%20Knock/12%20-%20The%20Big%20Knock.m4a</string>
-			<key>File Folder Count</key><integer>-1</integer>
-			<key>Library Folder Count</key><integer>-1</integer>
-		</dict>
-		<key>3599</key>
-		<dict>
-			<key>Track ID</key><integer>3599</integer>
-			<key>Name</key><string>Come Down</string>
-			<key>Artist</key><string>Jaded Incorporated</string>
-			<key>Album Artist</key><string>Jaded Incorporated</string>
-			<key>Composer</key><string>Andrew Cohen &#38; Kendall Tucker</string>
-			<key>Album</key><string>The Big Knock</string>
-			<key>Genre</key><string>Electronic</string>
-			<key>Kind</key><string>Купленное аудио AAC</string>
-			<key>Size</key><integer>9138900</integer>
-			<key>Total Time</key><integer>251030</integer>
-			<key>Disc Number</key><integer>1</integer>
-			<key>Disc Count</key><integer>1</integer>
-			<key>Track Number</key><integer>3</integer>
-			<key>Track Count</key><integer>12</integer>
-			<key>Year</key><integer>2014</integer>
-			<key>Date Modified</key><date>2015-11-26T15:23:07Z</date>
-			<key>Date Added</key><date>2014-06-19T15:47:39Z</date>
-			<key>Bit Rate</key><integer>256</integer>
-			<key>Sample Rate</key><integer>44100</integer>
-			<key>Comments</key><string>andrei_47 music collection</string>
-			<key>Play Count</key><integer>4</integer>
-			<key>Play Date</key><integer>3512151876</integer>
-			<key>Play Date UTC</key><date>2015-04-17T18:44:36Z</date>
-			<key>Skip Count</key><integer>2</integer>
-			<key>Skip Date</key><date>2015-01-01T08:46:52Z</date>
-			<key>Release Date</key><date>2014-06-17T07:00:00Z</date>
-			<key>Rating</key><integer>80</integer>
-			<key>Album Rating</key><integer>80</integer>
-			<key>Album Rating Computed</key><true/>
-			<key>Normalization</key><integer>2887</integer>
-			<key>Compilation</key><true/>
-			<key>Artwork Count</key><integer>1</integer>
-			<key>Sort Album</key><string>The Big Knock</string>
-			<key>Sort Artist</key><string>Jaded Incorporated</string>
-			<key>Sort Name</key><string>Come Down</string>
-			<key>Persistent ID</key><string>ADB965AD9BEA812F</string>
-			<key>Track Type</key><string>File</string>
-			<key>Purchased</key><true/>
-			<key>Location</key><string>file://localhost/D:/music/Jaded%20Incorporated/(2014)%20The%20Big%20Knock/03%20-%20Come%20Down.m4a</string>
-			<key>File Folder Count</key><integer>-1</integer>
-			<key>Library Folder Count</key><integer>-1</integer>
-		</dict>
-		<key>3601</key>
-		<dict>
-			<key>Track ID</key><integer>3601</integer>
-			<key>Name</key><string>Half Moon Bar OK</string>
-			<key>Artist</key><string>Jaded Incorporated</string>
-			<key>Album Artist</key><string>Jaded Incorporated</string>
-			<key>Composer</key><string>Andrew Cohen &#38; Kendall Tucker</string>
-			<key>Album</key><string>The Big Knock</string>
-			<key>Genre</key><string>Electronic</string>
-			<key>Kind</key><string>Купленное аудио AAC</string>
-			<key>Size</key><integer>7599969</integer>
-			<key>Total Time</key><integer>201544</integer>
-			<key>Disc Number</key><integer>1</integer>
-			<key>Disc Count</key><integer>1</integer>
+			<key>Track ID</key><integer>9471</integer>
+			<key>Name</key><string>Walk on Down</string>
+			<key>Artist</key><string>Aerosmith</string>
+			<key>Album</key><string>Get a Grip</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Аудиофайл MPEG</string>
+			<key>Size</key><integer>10206685</integer>
+			<key>Total Time</key><integer>237244</integer>
 			<key>Track Number</key><integer>7</integer>
-			<key>Track Count</key><integer>12</integer>
-			<key>Year</key><integer>2014</integer>
-			<key>Date Modified</key><date>2015-11-26T15:23:07Z</date>
-			<key>Date Added</key><date>2014-06-19T15:47:39Z</date>
-			<key>Bit Rate</key><integer>256</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>1993</integer>
+			<key>Date Modified</key><date>2015-09-15T16:34:06Z</date>
+			<key>Date Added</key><date>2015-09-15T19:42:22Z</date>
+			<key>Bit Rate</key><integer>320</integer>
 			<key>Sample Rate</key><integer>44100</integer>
 			<key>Comments</key><string>andrei_47 music collection</string>
-			<key>Play Count</key><integer>18</integer>
-			<key>Play Date</key><integer>3644770072</integer>
-			<key>Play Date UTC</key><date>2019-06-30T17:07:52Z</date>
-			<key>Skip Count</key><integer>7</integer>
-			<key>Skip Date</key><date>2018-02-07T17:54:36Z</date>
-			<key>Release Date</key><date>2014-06-17T07:00:00Z</date>
-			<key>Rating</key><integer>100</integer>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2015-09-24T18:48:48Z</date>
+			<key>Rating</key><integer>60</integer>
 			<key>Album Rating</key><integer>80</integer>
 			<key>Album Rating Computed</key><true/>
-			<key>Normalization</key><integer>1643</integer>
-			<key>Compilation</key><true/>
 			<key>Artwork Count</key><integer>1</integer>
-			<key>Sort Album</key><string>The Big Knock</string>
-			<key>Sort Artist</key><string>Jaded Incorporated</string>
-			<key>Sort Name</key><string>Half Moon Bar OK</string>
-			<key>Persistent ID</key><string>4430B81824C3A8C4</string>
+			<key>Persistent ID</key><string>0C6D3EC4C7D95BE2</string>
 			<key>Track Type</key><string>File</string>
-			<key>Purchased</key><true/>
-			<key>Location</key><string>file://localhost/D:/music/Jaded%20Incorporated/(2014)%20The%20Big%20Knock/07%20-%20Half%20Moon%20Bar%20OK.m4a</string>
+			<key>Location</key><string>file://localhost/D:/music/Aerosmith/(1993)%20Get%20a%20Grip/07%20-%20Walk%20on%20Down.mp3</string>
 			<key>File Folder Count</key><integer>-1</integer>
 			<key>Library Folder Count</key><integer>-1</integer>
 		</dict>
-		<key>3603</key>
+		<key>9473</key>
 		<dict>
-			<key>Track ID</key><integer>3603</integer>
-			<key>Name</key><string>Monster</string>
-			<key>Artist</key><string>Jaded Incorporated</string>
-			<key>Album Artist</key><string>Jaded Incorporated</string>
-			<key>Composer</key><string>Andrew Cohen, Kendall Tucker &#38; James Dewitt Yancey</string>
-			<key>Album</key><string>The Big Knock</string>
-			<key>Genre</key><string>Electronic</string>
-			<key>Kind</key><string>Купленное аудио AAC</string>
-			<key>Size</key><integer>7339072</integer>
-			<key>Total Time</key><integer>194573</integer>
-			<key>Disc Number</key><integer>1</integer>
-			<key>Disc Count</key><integer>1</integer>
-			<key>Track Number</key><integer>2</integer>
-			<key>Track Count</key><integer>12</integer>
-			<key>Year</key><integer>2014</integer>
-			<key>Date Modified</key><date>2015-11-26T15:23:06Z</date>
-			<key>Date Added</key><date>2014-06-19T15:47:39Z</date>
-			<key>Bit Rate</key><integer>256</integer>
+			<key>Track ID</key><integer>9473</integer>
+			<key>Name</key><string>Shut Up and Dance</string>
+			<key>Artist</key><string>Aerosmith</string>
+			<key>Album</key><string>Get a Grip</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Аудиофайл MPEG</string>
+			<key>Size</key><integer>13260195</integer>
+			<key>Total Time</key><integer>313573</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>1993</integer>
+			<key>Date Modified</key><date>2015-09-15T16:34:09Z</date>
+			<key>Date Added</key><date>2015-09-15T19:42:22Z</date>
+			<key>Bit Rate</key><integer>320</integer>
 			<key>Sample Rate</key><integer>44100</integer>
 			<key>Comments</key><string>andrei_47 music collection</string>
-			<key>Play Count</key><integer>32</integer>
-			<key>Play Date</key><integer>3637403893</integer>
-			<key>Play Date UTC</key><date>2019-04-06T10:58:13Z</date>
-			<key>Skip Count</key><integer>17</integer>
-			<key>Skip Date</key><date>2018-02-25T18:30:26Z</date>
-			<key>Release Date</key><date>2014-06-17T07:00:00Z</date>
-			<key>Rating</key><integer>100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3623756913</integer>
+			<key>Play Date UTC</key><date>2018-10-30T12:08:33Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2018-10-30T12:08:51Z</date>
+			<key>Rating</key><integer>80</integer>
 			<key>Album Rating</key><integer>80</integer>
 			<key>Album Rating Computed</key><true/>
-			<key>Normalization</key><integer>2938</integer>
-			<key>Compilation</key><true/>
 			<key>Artwork Count</key><integer>1</integer>
-			<key>Sort Album</key><string>The Big Knock</string>
-			<key>Sort Artist</key><string>Jaded Incorporated</string>
-			<key>Sort Name</key><string>Monster</string>
-			<key>Persistent ID</key><string>E372B2AB64BBC7DD</string>
+			<key>Persistent ID</key><string>BB6C7E28B9589498</string>
 			<key>Track Type</key><string>File</string>
-			<key>Purchased</key><true/>
-			<key>Location</key><string>file://localhost/D:/music/Jaded%20Incorporated/(2014)%20The%20Big%20Knock/02%20-%20Monster.m4a</string>
+			<key>Location</key><string>file://localhost/D:/music/Aerosmith/(1993)%20Get%20a%20Grip/08%20-%20Shut%20Up%20and%20Dance.mp3</string>
 			<key>File Folder Count</key><integer>-1</integer>
 			<key>Library Folder Count</key><integer>-1</integer>
 		</dict>
+		<key>9475</key>
+		<dict>
+			<key>Track ID</key><integer>9475</integer>
+			<key>Name</key><string>Cryin'</string>
+			<key>Artist</key><string>Aerosmith</string>
+			<key>Album</key><string>Get a Grip</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Аудиофайл MPEG</string>
+			<key>Size</key><integer>13773487</integer>
+			<key>Total Time</key><integer>326400</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>1993</integer>
+			<key>Date Modified</key><date>2015-09-15T18:34:10Z</date>
+			<key>Date Added</key><date>2015-09-15T19:42:22Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>andrei_47 music collection</string>
+			<key>Play Count</key><integer>33</integer>
+			<key>Play Date</key><integer>3678426252</integer>
+			<key>Play Date UTC</key><date>2020-07-24T06:04:12Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2016-08-14T14:41:13Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>5B89093369E592C9</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/D:/music/Aerosmith/(1993)%20Get%20a%20Grip/09%20-%20Cryin'.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>9477</key>
+		<dict>
+			<key>Track ID</key><integer>9477</integer>
+			<key>Name</key><string>Gotta Love It</string>
+			<key>Artist</key><string>Aerosmith</string>
+			<key>Album</key><string>Get a Grip</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Аудиофайл MPEG</string>
+			<key>Size</key><integer>15767588</integer>
+			<key>Total Time</key><integer>376267</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>1993</integer>
+			<key>Date Modified</key><date>2015-09-15T16:34:11Z</date>
+			<key>Date Added</key><date>2015-09-15T19:42:22Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>andrei_47 music collection</string>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2016-02-19T19:15:01Z</date>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>12D65019C6226BFA</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/D:/music/Aerosmith/(1993)%20Get%20a%20Grip/10%20-%20Gotta%20Love%20It.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>9479</key>
+		<dict>
+			<key>Track ID</key><integer>9479</integer>
+			<key>Name</key><string>Crazy</string>
+			<key>Artist</key><string>Aerosmith</string>
+			<key>Album</key><string>Get a Grip</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Аудиофайл MPEG</string>
+			<key>Size</key><integer>14111975</integer>
+			<key>Total Time</key><integer>334863</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>1993</integer>
+			<key>Date Modified</key><date>2015-09-15T18:34:12Z</date>
+			<key>Date Added</key><date>2015-09-15T19:42:22Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>andrei_47 music collection</string>
+			<key>Play Count</key><integer>25</integer>
+			<key>Play Date</key><integer>3673280757</integer>
+			<key>Play Date UTC</key><date>2020-05-25T16:45:57Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2017-10-07T07:57:44Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>B7F1D8C60C0602A1</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/D:/music/Aerosmith/(1993)%20Get%20a%20Grip/11%20-%20Crazy.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>9481</key>
+		<dict>
+			<key>Track ID</key><integer>9481</integer>
+			<key>Name</key><string>Line Up</string>
+			<key>Artist</key><string>Aerosmith</string>
+			<key>Album</key><string>Get a Grip</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Аудиофайл MPEG</string>
+			<key>Size</key><integer>11153452</integer>
+			<key>Total Time</key><integer>260911</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>1993</integer>
+			<key>Date Modified</key><date>2015-09-15T16:34:12Z</date>
+			<key>Date Added</key><date>2015-09-15T19:42:22Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>andrei_47 music collection</string>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>CB33A7F7DE6F6B0A</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/D:/music/Aerosmith/(1993)%20Get%20a%20Grip/12%20-%20Line%20Up.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>9483</key>
+		<dict>
+			<key>Track ID</key><integer>9483</integer>
+			<key>Name</key><string>Can't Stop Messin'</string>
+			<key>Artist</key><string>Aerosmith</string>
+			<key>Album</key><string>Get a Grip</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Аудиофайл MPEG</string>
+			<key>Size</key><integer>9857330</integer>
+			<key>Total Time</key><integer>228493</integer>
+			<key>Track Number</key><integer>13</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>1993</integer>
+			<key>Date Modified</key><date>2015-09-15T18:34:13Z</date>
+			<key>Date Added</key><date>2015-09-15T19:42:22Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>andrei_47 music collection</string>
+			<key>Rating</key><integer>80</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>327AEFBC2ECA23C2</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/D:/music/Aerosmith/(1993)%20Get%20a%20Grip/13%20-%20Can't%20Stop%20Messin'.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>9485</key>
+		<dict>
+			<key>Track ID</key><integer>9485</integer>
+			<key>Name</key><string>Amazing</string>
+			<key>Artist</key><string>Aerosmith</string>
+			<key>Album</key><string>Get a Grip</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Аудиофайл MPEG</string>
+			<key>Size</key><integer>15686110</integer>
+			<key>Total Time</key><integer>374230</integer>
+			<key>Track Number</key><integer>14</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>1993</integer>
+			<key>Date Modified</key><date>2015-09-15T16:34:14Z</date>
+			<key>Date Added</key><date>2015-09-15T19:42:22Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>andrei_47 music collection</string>
+			<key>Play Count</key><integer>33</integer>
+			<key>Play Date</key><integer>3674318319</integer>
+			<key>Play Date UTC</key><date>2020-06-06T16:58:39Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2020-05-15T05:34:15Z</date>
+			<key>Rating</key><integer>100</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>DEF9820CAF0C8155</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/D:/music/Aerosmith/(1993)%20Get%20a%20Grip/14%20-%20Amazing.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+		</dict>
+		<key>9487</key>
+		<dict>
+			<key>Track ID</key><integer>9487</integer>
+			<key>Name</key><string>Boogie Man</string>
+			<key>Artist</key><string>Aerosmith</string>
+			<key>Album</key><string>Get a Grip</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Аудиофайл MPEG</string>
+			<key>Size</key><integer>6901568</integer>
+			<key>Total Time</key><integer>154644</integer>
+			<key>Track Number</key><integer>15</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>1993</integer>
+			<key>Date Modified</key><date>2015-09-15T16:34:15Z</date>
+			<key>Date Added</key><date>2015-09-15T19:42:22Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>andrei_47 music collection</string>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>80</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>4F6F277BCE46D8A0</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file://localhost/D:/music/Aerosmith/(1993)%20Get%20a%20Grip/15%20-%20Boogie%20Man.mp3</string>
+			<key>File Folder Count</key><integer>-1</integer>
+			<key>Library Folder Count</key><integer>-1</integer>
+	</dict>
     </dict>
     <key>Playlists</key>
 	<array>
