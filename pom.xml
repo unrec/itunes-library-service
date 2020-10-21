@@ -11,6 +11,7 @@
     <modules>
         <module>itunes-library-service-api</module>
         <module>itunes-library-service-impl</module>
+        <module>itunes-library-service-db</module>
     </modules>
 
     <properties>
@@ -19,6 +20,7 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <spring-boot.version>2.2.4.RELEASE</spring-boot.version>
+        <spring-cloud.version>Hoxton.SR7</spring-cloud.version>
     </properties>
 
     <dependencyManagement>
@@ -29,9 +31,22 @@
                 <version>${project.version}</version>
             </dependency>
             <dependency>
+                <groupId>com.unrec</groupId>
+                <artifactId>itunes-library-service-db</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
                 <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

@@ -1,7 +1,7 @@
 server.port: 8081
 
 itunes-library-service:
-  startup-parsing: true
+  startup-parsing: false
 
 spring:
   application:
@@ -22,14 +22,14 @@ spring:
     username: user
     password: pass
     generate-unique-name: false
-#    url: jdbc:h2:mem:itunes_library
-    url: jdbc:h2:file:C:/data/itunes_library
+    url: jdbc:h2:mem:itunes_library
+#    url: jdbc:h2:file:C:/data/itunes_library
 
   jpa:
-    show-sql: false
+    show-sql: true
     database-platform: org.hibernate.dialect.H2Dialect
-#    hibernate.ddl-auto: create-drop
-    hibernate.ddl-auto: update
+    hibernate.ddl-auto: create-drop
+#    hibernate.ddl-auto: update
 
   h2:
     console:
@@ -40,17 +40,20 @@ spring:
   profiles: dev-pg
 
   datasource:
+    platform: postgresql
     driverClassName: org.postgresql.Driver
+    url: "jdbc:postgresql://localhost:5432/itunes_library"
     username: postgres
     password: root
-    url: jdbc:postgresql://localhost:5432/itunes_library
+    initialize: true
+    initialization-mode: always
+    schema: classpath:sql/schema.sql
+    data: classpath:sql/artists.sql, classpath:sql/albums.sql, classpath:sql/tracks.sql, classpath:sql/trackdiscinfo.sql
 
   jpa:
     show-sql: true
     database-platform: org.hibernate.dialect.PostgreSQL95Dialect
-    hibernate.ddl-auto: create-drop
+    hibernate.ddl-auto: none
     properties:
-      javax.persistence.schema-generation.scripts.action: create
-      javax.persistence.schema-generation.scripts.create-target: create.sql
-      javax.persistence.schema-generation.scripts.create-source: metadata
+      hibernate.default_schema: library
       hibernate.format_sql: true

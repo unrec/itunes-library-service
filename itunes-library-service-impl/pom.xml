@@ -9,9 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>com.unrec</groupId>
     <artifactId>itunes-library-service-impl</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
 
     <properties>
         <dom4j.version>2.1.3</dom4j.version>
@@ -22,6 +22,16 @@
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>com.unrec</groupId>
+            <artifactId>itunes-library-service-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.unrec</groupId>
+            <artifactId>itunes-library-service-db</artifactId>
+        </dependency>
+
         <!--spring region-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
