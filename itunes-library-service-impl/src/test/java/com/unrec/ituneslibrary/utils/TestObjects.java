@@ -1,6 +1,7 @@
 package com.unrec.ituneslibrary.utils;
 
 import com.unrec.ituneslibrary.model.Album;
+import com.unrec.ituneslibrary.model.AlbumId;
 import com.unrec.ituneslibrary.model.Artist;
 import com.unrec.ituneslibrary.model.Playlist;
 import com.unrec.ituneslibrary.model.Track;
@@ -82,7 +83,7 @@ public class TestObjects {
                 .setSampleRate(src.getSampleRate())
                 .setBitRate(src.getBitRate())
                 .setComments(src.getComments())
-                .setTrackId(src.getTrackID())
+                .setPlaylistId(src.getTrackID())
                 .setPlayCount(src.getPlayCount())
                 .setSkipCount(src.getRating())
                 .setRating(src.getRating())
@@ -96,10 +97,14 @@ public class TestObjects {
 
     public static Album album(TrackRecord src) {
         return new Album()
-                .setName(src.getAlbum())
-                .setYear(src.getYear())
-                .setAlbumArtist(src.getAlbumArtist())
+                .setId(albumId(src))
                 .setCompilation(src.getCompilation());
+    }
+
+    public static AlbumId albumId(TrackRecord src) {
+        return new AlbumId()
+                .setName(src.getAlbum())
+                .setYear(src.getYear());
     }
 
     public static Artist artist(TrackRecord src) {
@@ -125,11 +130,16 @@ public class TestObjects {
 
     public static Album album(AlbumWithArtist src) {
         return new Album()
-                .setName(src.getAlbum())
-                .setYear(src.getYear())
-                .setAlbumArtist(src.getAlbumArtist())
+                .setId(albumId(src))
+                .setArtist(artist(src))
                 .setCompilation(src.getCompilation())
                 .setTrackDiscInfo(src.getTrackDiscInfo());
+    }
+
+    public static AlbumId albumId(AlbumWithArtist src) {
+        return new AlbumId()
+                .setName(src.getAlbum())
+                .setYear(src.getYear());
     }
 
     public static Artist artist(AlbumWithArtist src) {
@@ -193,9 +203,10 @@ public class TestObjects {
 
     public static Album getTestAlbum() {
         return new Album()
-                .setName("Reload")
-                .setYear(1997)
-                .setAlbumArtist("Metallica")
+                .setId(new AlbumId()
+                        .setName("Reload")
+                        .setYear(1997))
+                        .setArtist(new Artist("Metallica"))
                 .setCompilation(FALSE)
                 .setTrackDiscInfo(Map.of(1, 13));
     }
@@ -205,7 +216,7 @@ public class TestObjects {
     }
 
     public static Artist getTestArtist() {
-        return new Artist().setName("Metallica");
+        return new Artist("Metallica");
     }
 
     public static Artist getTestArtist(Album album) {

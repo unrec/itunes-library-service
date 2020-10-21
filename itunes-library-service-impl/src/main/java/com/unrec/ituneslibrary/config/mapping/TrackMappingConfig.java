@@ -26,8 +26,9 @@ public class TrackMappingConfig implements OrikaMapperFactoryConfigurer {
         factory
                 .classMap(TrackRecord.class, Track.class)
                 .field("persistentID", "id")
-                .exclude("album")
-                .exclude("artist")
+                .field("trackID", "playlistId")
+                .field("album", "album.id.name")
+                .field("year", "album.id.year")
                 .byDefault()
                 .register();
     }
@@ -35,7 +36,8 @@ public class TrackMappingConfig implements OrikaMapperFactoryConfigurer {
     private void registerTrackRecordToAlbumMapper(MapperFactory factory) {
         factory
                 .classMap(TrackRecord.class, Album.class)
-                .field("album", "name")
+                .field("album", "id.name")
+                .field("year", "id.year")
                 .exclude("artist")
                 .byDefault()
                 .register();
@@ -59,8 +61,10 @@ public class TrackMappingConfig implements OrikaMapperFactoryConfigurer {
     private void registerAlbumWithArtistToAlbumMapper(MapperFactory factory) {
         factory
                 .classMap(LibraryDatabaseService.AlbumWithArtist.class, Album.class)
-                .field("album", "name")
-                .exclude("artist")
+                .field("album", "id.name")
+                .field("year", "id.year")
+                .field("artist","artist.name")
+//                .exclude("artist")
                 .byDefault()
                 .register();
     }

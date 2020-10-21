@@ -1,6 +1,7 @@
 package com.unrec.ituneslibrary.model;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
@@ -14,13 +15,22 @@ import java.util.List;
 @Getter
 @Setter
 @Entity
+@NoArgsConstructor
 @Table(name = "ARTISTS")
 public class Artist implements Serializable {
+
     @Id
     private String name;
 
     @OneToMany(mappedBy = "artist", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Album> albums;
+
+    @OneToMany(mappedBy = "artist", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<Track> tracks;
+
+    public Artist(String name) {
+        this.name = name;
+    }
 
     @Override
     public int hashCode() {

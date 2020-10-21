@@ -2,11 +2,14 @@ package com.unrec.ituneslibrary.model;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.hibernate.annotations.NotFound;
+import org.hibernate.annotations.NotFoundAction;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.JoinColumns;
 import javax.persistence.Lob;
 import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
@@ -22,21 +25,28 @@ import java.util.Set;
 @Entity
 @Table(name = "TRACKS")
 public class Track implements Serializable {
+
     @Id
     private String id;
 
     @ManyToOne
-    @JoinColumn(name = "album_id")
+    @NotFound(action = NotFoundAction.IGNORE)
+    @JoinColumns({
+            @JoinColumn(
+                    name = "album_name",
+                    referencedColumnName = "album_name"),
+            @JoinColumn(
+                    name = "album_year",
+                    referencedColumnName = "album_year")
+    })
     private Album album;
+
+    @ManyToOne
+    @JoinColumn(name = "artist_name")
+    private Artist artist;
 
     @ManyToMany(mappedBy = "tracks", cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.DETACH, CascadeType.REFRESH})
     private Set<Playlist> playlists;
-
-    @PreRemove
-    private void deleteFromPlaylists() {
-        playlists.forEach(playlist -> playlist.getTracks().remove(this));
-    }
-
     @Column
     private String name;
     @Column
@@ -71,7 +81,7 @@ public class Track implements Serializable {
 
     /* Library-related properties */
     @Column
-    private Integer trackId;
+    private Integer playlistId;
     @Column
     private Integer playCount;
     @Column
@@ -94,6 +104,11 @@ public class Track implements Serializable {
     private Boolean podcast;
     @Column
     private Boolean movie;
+
+    @PreRemove
+    private void deleteFromPlaylists() {
+        playlists.forEach(playlist -> playlist.getTracks().remove(this));
+    }
 
     @Override
     public int hashCode() {
