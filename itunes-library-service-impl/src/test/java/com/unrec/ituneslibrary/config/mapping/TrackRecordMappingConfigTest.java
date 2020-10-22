@@ -18,7 +18,7 @@ import static com.unrec.ituneslibrary.utils.TestObjects.trackRecord;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class TrackMappingConfigTest {
+class TrackRecordMappingConfigTest {
 
     private static TrackRecord trackRecord;
     private final MapperFacade mapperFacade = MapperUtils.createMapper();

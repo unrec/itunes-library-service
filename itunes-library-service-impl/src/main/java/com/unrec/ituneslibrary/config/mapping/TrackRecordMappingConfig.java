@@ -10,7 +10,7 @@ import net.rakugakibox.spring.boot.orika.OrikaMapperFactoryConfigurer;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class TrackMappingConfig implements OrikaMapperFactoryConfigurer {
+public class TrackRecordMappingConfig implements OrikaMapperFactoryConfigurer {
 
     @Override
     public void configure(MapperFactory factory) {
