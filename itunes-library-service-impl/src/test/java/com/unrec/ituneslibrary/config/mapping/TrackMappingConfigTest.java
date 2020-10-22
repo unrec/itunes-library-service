@@ -21,13 +21,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class TrackMappingConfigTest {
 
     private static TrackRecord trackRecord;
-    private static AlbumWithArtist albumWithArtist;
     private final MapperFacade mapperFacade = MapperUtils.createMapper();
 
     @BeforeAll
     static void setUp() throws MalformedURLException {
         trackRecord = trackRecord();
-        albumWithArtist = albumWithArtist();
     }
 
     @Test
@@ -65,27 +63,6 @@ class TrackMappingConfigTest {
 
         assertThat(actual)
                 .usingRecursiveComparison()
-                .isEqualTo(expected);
-    }
-
-    @Test
-    void testMapAlbumWithArtistToAlbumMapper() {
-        var expected = album(albumWithArtist);
-        var actual = mapperFacade.map(albumWithArtist, Album.class);
-
-        assertThat(actual)
-                .usingRecursiveComparison()
-                .isEqualTo(expected);
-    }
-
-    @Test
-    void testMapAlbumWithArtistToArtistMapper() {
-        var expected = artist(albumWithArtist);
-        var actual = mapperFacade.map(albumWithArtist, Artist.class);
-
-        assertThat(actual)
-                .usingRecursiveComparison()
-                .ignoringActualNullFields()
                 .isEqualTo(expected);
     }
 }
