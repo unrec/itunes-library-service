@@ -31,7 +31,7 @@ public class TrackRecordMappingConfig implements OrikaMapperFactoryConfigurer {
                         if (trackRecord.getRating() == null) {
                             track.setRating(0);
                         } else
-                            track.setRating(track.getRating() / 20);
+                            track.setRating(trackRecord.getRating() / 20);
                     }
                 })
                 .field("persistentID", "id")
