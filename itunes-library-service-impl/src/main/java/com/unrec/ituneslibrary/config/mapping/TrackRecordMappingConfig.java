@@ -5,7 +5,9 @@ import com.unrec.ituneslibrary.model.Artist;
 import com.unrec.ituneslibrary.model.Track;
 import com.unrec.ituneslibrary.parser.dom.TrackRecord;
 import com.unrec.ituneslibrary.service.LibraryDatabaseService;
+import ma.glasnost.orika.CustomMapper;
 import ma.glasnost.orika.MapperFactory;
+import ma.glasnost.orika.MappingContext;
 import net.rakugakibox.spring.boot.orika.OrikaMapperFactoryConfigurer;
 import org.springframework.context.annotation.Configuration;
 
@@ -23,6 +25,15 @@ public class TrackRecordMappingConfig implements OrikaMapperFactoryConfigurer {
     private void registerTrackRecordToTrackMapper(MapperFactory factory) {
         factory
                 .classMap(TrackRecord.class, Track.class)
+                .customize(new CustomMapper<>() {
+                    @Override
+                    public void mapAtoB(TrackRecord trackRecord, Track track, MappingContext context) {
+                        if (trackRecord.getRating() == null) {
+                            track.setRating(0);
+                        } else
+                            track.setRating(track.getRating() / 20);
+                    }
+                })
                 .field("persistentID", "id")
                 .field("trackID", "playlistId")
                 .field("album", "album.id.name")

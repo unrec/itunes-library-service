@@ -1,5 +1,6 @@
 package com.unrec.ituneslibrary.utils;
 
+import com.ituneslibrary.dto.TrackResponseDto;
 import com.unrec.ituneslibrary.model.Album;
 import com.unrec.ituneslibrary.model.AlbumId;
 import com.unrec.ituneslibrary.model.Artist;
@@ -86,13 +87,22 @@ public class TestObjects {
                 .setPlaylistId(src.getTrackID())
                 .setPlayCount(src.getPlayCount())
                 .setSkipCount(src.getRating())
-                .setRating(src.getRating())
+                .setRating(src.getRating() / 20)
                 .setDateAdded(src.getDateAdded())
                 .setDateModified(src.getDateModified())
                 .setPlayDateUTC(src.getPlayDateUTC())
                 .setSkipDate(src.getSkipDate())
                 .setPurchased(src.getPurchased())
                 .setTrackType(src.getTrackType());
+    }
+
+    public static Track fullTrack(TrackRecord src) {
+        return track(src)
+                .setTrackType(src.getTrackType())
+                .setArtist(new Artist(src.getArtist()))
+                .setAlbum(new Album().setId(new AlbumId()
+                        .setName(src.getAlbum())
+                        .setYear(src.getYear())));
     }
 
     public static Album album(TrackRecord src) {
@@ -166,6 +176,7 @@ public class TestObjects {
                 .setName("The Memory Remains")
                 .setGenre("Rock")
                 .setComposer("Ulrich, Hetfield")
+                .setRating(5)
                 .setTrackNumber(2)
                 .setDiscNumber(1)
                 .setExplicit(FALSE)
@@ -174,24 +185,25 @@ public class TestObjects {
 
     public static List<Track> getTestTracks() {
         return Stream.of(
-                List.of("Fuel", 1, 1, "3105EFEA81D2FA2C"),
-                List.of("The Memory Remains", 2, 1, "CB226CC410A85072"),
-                List.of("Devil's Dance", 3, 1, "508523580D5A51DB"),
-                List.of("The Unforgiven II", 4, 1, "272E725E54380493"),
-                List.of("Better than You", 5, 1, "DD3391F0C2640708"),
-                List.of("Slither", 6, 1, "88AECD45DE6C0364"),
-                List.of("Carpe Diem Baby", 7, 1, "DCE004861760FEFA"),
-                List.of("Bad Seed", 8, 1, "148D5F28A6952DEC"),
-                List.of("Where the Wild Things Are", 9, 1, "E87753388E8537E4"),
-                List.of("Prince Charming", 10, 1, "504EC2248ED1AB5B"),
-                List.of("Low Man's Lyric", 11, 1, "32241132896DD286"),
-                List.of("Attitude", 12, 1, "E472613366E87969"),
-                List.of("Fixxxer", 13, 1, "CCAFC969C7F125D9"))
+                List.of("Fuel", 1, 1, "3105EFEA81D2FA2C", 5),
+                List.of("The Memory Remains", 2, 1, "CB226CC410A85072", 5),
+                List.of("Devil's Dance", 3, 1, "508523580D5A51DB", 4),
+                List.of("The Unforgiven II", 4, 1, "272E725E54380493", 4),
+                List.of("Better than You", 5, 1, "DD3391F0C2640708", 4),
+                List.of("Slither", 6, 1, "88AECD45DE6C0364", 4),
+                List.of("Carpe Diem Baby", 7, 1, "DCE004861760FEFA", 4),
+                List.of("Bad Seed", 8, 1, "148D5F28A6952DEC", 3),
+                List.of("Where the Wild Things Are", 9, 1, "E87753388E8537E4", 4),
+                List.of("Prince Charming", 10, 1, "504EC2248ED1AB5B", 5),
+                List.of("Low Man's Lyric", 11, 1, "32241132896DD286", 5),
+                List.of("Attitude", 12, 1, "E472613366E87969", 5),
+                List.of("Fixxxer", 13, 1, "CCAFC969C7F125D9", 4))
                 .map(track -> new Track()
                         .setName((String) track.get(0))
                         .setTrackNumber((Integer) track.get(1))
                         .setDiscNumber((Integer) track.get(2))
-                        .setId((String) track.get(3)))
+                        .setId((String) track.get(3))
+                        .setRating((Integer) (track.get(4))))
                 .collect(Collectors.toList());
     }
 
@@ -206,7 +218,7 @@ public class TestObjects {
                 .setId(new AlbumId()
                         .setName("Reload")
                         .setYear(1997))
-                        .setArtist(new Artist("Metallica"))
+                .setArtist(new Artist("Metallica"))
                 .setCompilation(FALSE)
                 .setTrackDiscInfo(Map.of(1, 13));
     }
@@ -225,14 +237,15 @@ public class TestObjects {
 
     public static List<Track> getTestPlaylistTracks() {
         return Stream.of(
-                List.of("Rain", "5E63CB16AFAA026E"),
-                List.of("Riders on the Storm", "02533058343C7D9D"),
-                List.of("It's Probably Me (Soundtrack Version)", "866463152C69B7C1"),
-                List.of("Wake Me Up When September Ends", "8835A6918BA301CA"),
-                List.of("Inner City Blues (Make Me Wanna Holler)", "56C00A16DE9CF495"))
+                List.of("Rain", "5E63CB16AFAA026E", 5),
+                List.of("Riders on the Storm", "02533058343C7D9D", 5),
+                List.of("It's Probably Me (Soundtrack Version)", "866463152C69B7C1", 5),
+                List.of("Wake Me Up When September Ends", "8835A6918BA301CA", 5),
+                List.of("Inner City Blues (Make Me Wanna Holler)", "56C00A16DE9CF495", 5))
                 .map(track -> new Track()
-                        .setName(track.get(0))
-                        .setId(track.get(1)))
+                        .setName((String) track.get(0))
+                        .setId((String) track.get(1))
+                        .setRating((Integer) track.get(2)))
                 .collect(Collectors.toList());
     }
 
@@ -244,5 +257,23 @@ public class TestObjects {
                 .setHasAllItems(true)
                 .setIsSmart(false)
                 .setIsMaster(false);
+    }
+
+    /* API OBJECTS */
+
+    public static TrackResponseDto trackResponseDto(Track src) {
+        return new TrackResponseDto()
+                .setId(src.getId())
+                .setName(src.getName())
+                .setArtist(src.getArtist().getName())
+                .setAlbum(src.getAlbum().getId().getName())
+                .setGenre(src.getGenre())
+                .setTrackNumber(src.getTrackNumber())
+                .setDiscNumber(src.getDiscNumber())
+                .setSize(src.getSize())
+                .setBitRate(src.getBitRate())
+                .setPlayCount(src.getPlayCount())
+                .setRating(src.getRating())
+                .setDateAdded(src.getDateAdded());
     }
 }

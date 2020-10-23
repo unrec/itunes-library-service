@@ -1,6 +1,5 @@
 package com.unrec.ituneslibrary.model;
 
-import com.unrec.ituneslibrary.validation.Rating;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.NotFound;
@@ -16,6 +15,8 @@ import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.PreRemove;
 import javax.persistence.Table;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.net.URL;
@@ -91,7 +92,8 @@ public class Track implements Serializable {
     @Column
     private Integer skipCount;
     @Column
-    @Rating
+    @Min(0)
+    @Max(5)
     private Integer rating;
     @Column
     private LocalDateTime dateAdded;
