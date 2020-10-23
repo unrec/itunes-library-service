@@ -1,5 +1,6 @@
 package com.unrec.ituneslibrary.model;
 
+import com.unrec.ituneslibrary.validation.Rating;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.NotFound;
@@ -15,6 +16,7 @@ import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.PreRemove;
 import javax.persistence.Table;
+import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.net.URL;
 import java.time.LocalDateTime;
@@ -27,6 +29,7 @@ import java.util.Set;
 public class Track implements Serializable {
 
     @Id
+    @NotNull
     private String id;
 
     @ManyToOne
@@ -48,6 +51,7 @@ public class Track implements Serializable {
     @ManyToMany(mappedBy = "tracks", cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.DETACH, CascadeType.REFRESH})
     private Set<Playlist> playlists;
     @Column
+    @NotNull
     private String name;
     @Column
     private String genre;
@@ -87,6 +91,7 @@ public class Track implements Serializable {
     @Column
     private Integer skipCount;
     @Column
+    @Rating
     private Integer rating;
     @Column
     private LocalDateTime dateAdded;
