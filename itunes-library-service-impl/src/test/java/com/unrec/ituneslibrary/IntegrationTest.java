@@ -6,10 +6,12 @@ import com.unrec.ituneslibrary.repository.ArtistRepository;
 import com.unrec.ituneslibrary.repository.PlaylistRepository;
 import com.unrec.ituneslibrary.repository.TrackRepository;
 import com.unrec.ituneslibrary.service.LibraryDatabaseService;
+import ma.glasnost.orika.MapperFacade;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.transaction.support.TransactionTemplate;
@@ -36,6 +38,11 @@ public abstract class IntegrationTest {
     protected TransactionTemplate txTemplate;
     @Autowired
     protected PlaylistRepository playlistRepository;
+
+    @Autowired
+    protected TestRestTemplate restTemplate;
+    @Autowired
+    protected MapperFacade mapperFacade;
 
     @AfterEach
     void reset() {

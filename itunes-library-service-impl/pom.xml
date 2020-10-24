@@ -49,7 +49,7 @@
             <artifactId>orika-spring-boot-starter</artifactId>
             <version>${orika-spring-boot.version}</version>
         </dependency>
-        <!--endregion-->
+        <!--spring region-->
 
         <!--xml region-->
         <dependency>
@@ -67,17 +67,14 @@
             <artifactId>jaxb-runtime</artifactId>
             <version>${jaxb.version}</version>
         </dependency>
-        <!--endregion-->
+        <!--xml region-->
 
-        <!--database region-->
+        <!--other libs-->
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
         </dependency>
-        <!--endregion-->
-
-        <!--other libs-->
         <dependency>
             <groupId>ma.glasnost.orika</groupId>
             <artifactId>orika-core</artifactId>
@@ -88,7 +85,7 @@
             <artifactId>commons-io</artifactId>
             <version>${commons-io.version}</version>
         </dependency>
-        <!--endregion-->
+        <!--other libs-->
 
         <!--test region-->
         <dependency>
@@ -102,6 +99,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!--endregion-->
+        <!--test region-->
     </dependencies>
 </project>

@@ -2,6 +2,9 @@ server.port: 8081
 
 itunes-library-service:
   startup-parsing: false
+  pagination:
+    defaultSize: 10
+    defaultPage: 0
 
 spring:
   application:
