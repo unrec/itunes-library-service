@@ -1,6 +1,6 @@
 package com.unrec.ituneslibrary.utils;
 
-import com.ituneslibrary.dto.TrackResponseDto;
+import com.unrec.ituneslibrary.dto.TrackResponseDto;
 import com.unrec.ituneslibrary.model.Album;
 import com.unrec.ituneslibrary.model.AlbumId;
 import com.unrec.ituneslibrary.model.Artist;

@@ -1,8 +1,8 @@
 package com.unrec.ituneslibrary.resource;
 
-import com.ituneslibrary.dto.PageDto;
-import com.ituneslibrary.dto.TrackResponseDto;
 import com.unrec.ituneslibrary.IntegrationTest;
+import com.unrec.ituneslibrary.dto.PageDto;
+import com.unrec.ituneslibrary.dto.TrackResponseDto;
 import com.unrec.ituneslibrary.model.Track;
 import com.unrec.ituneslibrary.parser.dom.TrackRecord;
 import org.junit.jupiter.api.DisplayName;

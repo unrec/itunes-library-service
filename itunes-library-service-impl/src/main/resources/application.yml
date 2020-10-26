@@ -10,6 +10,15 @@ spring:
   application:
     name: itunes-library-service
 
+springdoc:
+  swagger-ui:
+    path: /api/v1/library/swagger-ui.html
+    operationsSorter: alpha
+  api-docs:
+    path: /api/v1/library/apidocs
+  packagesToScan: com.unrec.ituneslibrary.resource
+  pathsToMatch: /api/v1/library/**
+
 logging.level:
   ROOT: INFO
   org.springframework: INFO

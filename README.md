@@ -20,3 +20,8 @@ Microservice database can be initialized in two ways:
 6. Run the application.
 
 The microservice can work with h2 (embedded or file-based) database and PostgreSQL as well. To select a required database type run the application with proper profile (**dev-h2** or **dev-pg** respectively, see `application.xml` for more details).
+
+##### API documentation
+
+- Swagger 2: http://localhost:8081/swagger-ui.html
+- OpenAPI 3: http://localhost:8081/api/v1/library/swagger-ui.html

@@ -1,4 +1,4 @@
-package com.ituneslibrary.dto;
+package com.unrec.ituneslibrary.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

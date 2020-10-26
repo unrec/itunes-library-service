@@ -1,4 +1,4 @@
-package com.ituneslibrary.feign;
+package com.unrec.ituneslibrary.feign;
 
 import feign.Feign;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;

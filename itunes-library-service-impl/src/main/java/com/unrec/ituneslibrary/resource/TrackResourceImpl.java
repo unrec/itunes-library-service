@@ -1,8 +1,7 @@
 package com.unrec.ituneslibrary.resource;
 
-import com.ituneslibrary.dto.PageDto;
-import com.ituneslibrary.dto.TrackResponseDto;
-import com.ituneslibrary.resource.TrackResource;
+import com.unrec.ituneslibrary.dto.PageDto;
+import com.unrec.ituneslibrary.dto.TrackResponseDto;
 import com.unrec.ituneslibrary.model.Track;
 import com.unrec.ituneslibrary.service.TrackService;
 import lombok.RequiredArgsConstructor;

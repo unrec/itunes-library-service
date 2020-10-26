@@ -1,6 +1,6 @@
 package com.unrec.ituneslibrary.config.mapping;
 
-import com.ituneslibrary.dto.TrackResponseDto;
+import com.unrec.ituneslibrary.dto.TrackResponseDto;
 import com.unrec.ituneslibrary.model.Track;
 import ma.glasnost.orika.MapperFactory;
 import net.rakugakibox.spring.boot.orika.OrikaMapperFactoryConfigurer;
