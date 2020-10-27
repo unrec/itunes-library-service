@@ -58,4 +58,8 @@ public class TrackService {
         }
         return allByRating.stream().limit(amount).collect(Collectors.toList());
     }
+
+    public List<Track> getTopPlayed(Integer amount) {
+        return trackRepository.findAllByPlayCountIsNotNull(amount);
+    }
 }

@@ -16,6 +16,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import static java.lang.Boolean.FALSE;
@@ -32,6 +33,7 @@ public class TestObjects {
     public static final String ID_NOT_FOUND = "ID_NOT_FOUND";
     public static final String WRONG_SORT_DIRECTION = "ASCCC";
     public static final String SORT_PARAMETER = "dateAdded";
+    public static final Integer MAX_COUNT = 100;
 
     private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss'Z'");
 
@@ -217,6 +219,11 @@ public class TestObjects {
         return tracks;
     }
 
+    public static List<Track> getTestTracksWithRandomPlayCount() {
+        var list = getTestTracks();
+        list.forEach(track -> track.setPlayCount(ThreadLocalRandom.current().nextInt(MAX_COUNT)));
+        return list;
+    }
     public static Album getTestAlbum() {
         return new Album()
                 .setId(new AlbumId()

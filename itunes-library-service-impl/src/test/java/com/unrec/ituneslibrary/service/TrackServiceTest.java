@@ -2,6 +2,7 @@ package com.unrec.ituneslibrary.service;
 
 import com.unrec.ituneslibrary.exception.BadRequestException;
 import com.unrec.ituneslibrary.exception.NotFoundException;
+import com.unrec.ituneslibrary.model.Track;
 import com.unrec.ituneslibrary.repository.TrackRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.DisplayName;
@@ -13,6 +14,7 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.data.domain.Sort;
+import java.util.Comparator;
 import java.util.Optional;
 import java.util.stream.Collectors;
 import static com.unrec.ituneslibrary.service.TrackService.TOP_RATING;
@@ -23,8 +25,10 @@ import static com.unrec.ituneslibrary.utils.TestObjects.getTestAlbum;
 import static com.unrec.ituneslibrary.utils.TestObjects.getTestArtist;
 import static com.unrec.ituneslibrary.utils.TestObjects.getTestTrack;
 import static com.unrec.ituneslibrary.utils.TestObjects.getTestTracks;
+import static com.unrec.ituneslibrary.utils.TestObjects.getTestTracksWithRandomPlayCount;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.mockito.ArgumentMatchers.anyInt;
 import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.when;
 
@@ -90,5 +94,23 @@ class TrackServiceTest {
     @DisplayName("Throw BadRequestException when passing wrong type of sort")
     void shouldThrow_whenWrongSortDirection() {
         assertThrows(BadRequestException.class, () -> trackService.getTopRated(TOP_RATING, WRONG_SORT_DIRECTION, SORT_PARAMETER));
+    }
+
+    @Test
+    @DisplayName("Get top played tracks")
+    void getTopPlayed() {
+        var tracks = getTestTracksWithRandomPlayCount();
+        var expected = tracks.stream()
+                .sorted(Comparator.comparingInt(Track::getPlayCount).reversed())
+                .collect(Collectors.toList());
+        when(trackRepository.findAllByPlayCountIsNotNull(anyInt()))
+                .thenReturn(expected);
+
+        var result = trackService.getTopPlayed(100);
+        var actual = result.stream()
+                .map(Track::getPlayCount)
+                .sorted(Comparator.reverseOrder())
+                .collect(Collectors.toList());
+        assertEquals(expected.stream().map(Track::getPlayCount).collect(Collectors.toList()), actual);
     }
 }

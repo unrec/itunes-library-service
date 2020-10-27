@@ -23,4 +23,11 @@ public interface TrackRepository extends JpaRepository<Track, String> {
     Page<Track> findAllByRating(Integer rating, Pageable pageable);
 
     List<Track> findAllByRating(Integer rating, Sort sort);
+
+    @Query(value = "SELECT * FROM TRACKS t " +
+            "WHERE t.play_count NOTNULL " +
+            "ORDER BY t.play_count DESC " +
+            "LIMIT ?1",
+            nativeQuery = true)
+    List<Track> findAllByPlayCountIsNotNull(Integer amount);
 }

@@ -79,6 +79,12 @@ public class TrackResourceImpl implements TrackResource {
 
     @Override
     public List<TrackResponseDto> getTopPlayed(Integer amount) {
-        return null;
+        log.debug("getTopPlayed() - start: amount = {}", amount);
+
+        var topPlayed = trackService.getTopPlayed(amount);
+        var result = mapperFacade.mapAsList(topPlayed, TrackResponseDto.class);
+
+        log.debug("getTopPlayed() - end: result = {}", result);
+        return result;
     }
 }
