@@ -29,6 +29,10 @@ public class TestObjects {
     public static final String SAMPLE_LIBRARY_NON_ALBUM_PATH = "src/test/resources/library/sample-library-non-album.xml";
     public static final String SAMPLE_LIBRARY_MULTI_DISC_PATH = "src/test/resources/library/sample-library-multi-disc.xml";
 
+    public static final String ID_NOT_FOUND = "ID_NOT_FOUND";
+    public static final String WRONG_SORT_DIRECTION = "ASCCC";
+    public static final String SORT_PARAMETER = "dateAdded";
+
     private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss'Z'");
 
     /* MAPPING OBJECTS */

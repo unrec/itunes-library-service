@@ -5,6 +5,9 @@ itunes-library-service:
   pagination:
     defaultSize: 10
     defaultPage: 0
+  sort:
+    direction: "DESC"
+    property: "dateAdded"
 
 spring:
   application:

@@ -12,7 +12,12 @@ import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import java.net.MalformedURLException;
+import java.util.List;
 import java.util.stream.Collectors;
+import static com.unrec.ituneslibrary.service.TrackService.TOP_RATING;
+import static com.unrec.ituneslibrary.utils.TestObjects.ID_NOT_FOUND;
+import static com.unrec.ituneslibrary.utils.TestObjects.SORT_PARAMETER;
+import static com.unrec.ituneslibrary.utils.TestObjects.WRONG_SORT_DIRECTION;
 import static com.unrec.ituneslibrary.utils.TestObjects.album;
 import static com.unrec.ituneslibrary.utils.TestObjects.artist;
 import static com.unrec.ituneslibrary.utils.TestObjects.fullTrack;
@@ -75,7 +80,7 @@ class TrackResourceImplTest extends IntegrationTest {
                 HttpMethod.GET,
                 null,
                 String.class,
-                "ID"
+                ID_NOT_FOUND
         );
         assertEquals(HttpStatus.NOT_FOUND, response.getStatusCode());
     }
@@ -108,7 +113,7 @@ class TrackResourceImplTest extends IntegrationTest {
         int rating = 5;
         var tracks = trackRepository.saveAll(getTestTracks());
         var ratedTracks = tracks.stream()
-                .filter(track -> track.getRating() == 5)
+                .filter(track -> rating == track.getRating())
                 .collect(Collectors.toList());
 
         ResponseEntity<PageDto<Track>> response = restTemplate.exchange(
@@ -123,5 +128,42 @@ class TrackResourceImplTest extends IntegrationTest {
 
         PageDto<Track> result = response.getBody();
         assertEquals(ratedTracks.size(), result.getTotalCount());
+    }
+
+    @Test
+    @DisplayName("Get top rated tracks")
+    void getTopRated() {
+        var tracks = trackRepository.saveAll(getTestTracks());
+        var topRatedTracks = tracks.stream()
+                .filter(track -> TOP_RATING.equals(track.getRating()))
+                .collect(Collectors.toList());
+
+        var response = restTemplate.exchange(
+                BASE_URL + "/top/rated/{amount}?direction={direction}&parameter={parameter}",
+                HttpMethod.GET,
+                null,
+                new ParameterizedTypeReference<List<Track>>() {
+                },
+                100, "DESC", SORT_PARAMETER
+        );
+        assertEquals(HttpStatus.OK, response.getStatusCode());
+
+        var result = response.getBody();
+        assertEquals(topRatedTracks.size(), result.size());
+    }
+
+    @Test
+    @DisplayName("Return 400 when passing wrong type of sort")
+    void getTopRated_shouldThrow_whenWrongSortDirection() {
+        trackRepository.saveAll(getTestTracks());
+
+        var response = restTemplate.exchange(
+                BASE_URL + "/top/rated/{amount}?direction={direction}&parameter={parameter}",
+                HttpMethod.GET,
+                null,
+                String.class,
+                100, WRONG_SORT_DIRECTION, SORT_PARAMETER
+        );
+        assertEquals(HttpStatus.BAD_REQUEST, response.getStatusCode());
     }
 }

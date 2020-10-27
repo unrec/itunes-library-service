@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
+import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/library/tracks")
@@ -43,5 +44,18 @@ public interface TrackResource {
             @PathVariable("rating") Integer rating,
             @RequestParam(value = "size", required = false, defaultValue = "${itunes-library-service.pagination.defaultSize}") Integer size,
             @RequestParam(value = "page", required = false, defaultValue = "${itunes-library-service.pagination.defaultPage}") Integer page);
+
+    @GetMapping("/top/rated/{amount}")
+    @Operation(description = "Return page of tracks with highest rating")
+    @ResponseStatus(HttpStatus.OK)
+    List<TrackResponseDto> getTopRated(
+            @PathVariable("amount") Integer amount,
+            @RequestParam(value = "direction", required = false, defaultValue = "${itunes-library-service.sort.direction}") String direction,
+            @RequestParam(value = "property", required = false, defaultValue = "${itunes-library-service.sort.property}") String property);
+
+    @GetMapping("/top/played/{amount}")
+    @Operation(description = "Return page of tracks with highest play count")
+    @ResponseStatus(HttpStatus.OK)
+    List<TrackResponseDto> getTopPlayed(@PathVariable("amount") Integer amount);
 
 }

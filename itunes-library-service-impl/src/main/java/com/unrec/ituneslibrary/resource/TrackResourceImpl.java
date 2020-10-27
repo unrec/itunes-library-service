@@ -11,6 +11,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.RestController;
+import java.util.List;
 
 @Slf4j
 @RestController
@@ -63,5 +64,21 @@ public class TrackResourceImpl implements TrackResource {
 
         log.debug("getByRating() - end: result = {}", result);
         return PageDto.of(result, tracks.getTotalElements());
+    }
+
+    @Override
+    public List<TrackResponseDto> getTopRated(Integer amount, String direction, String property) {
+        log.debug("getTopRated() - start: amount = {}", amount);
+
+        var topRated = trackService.getTopRated(amount, direction, property);
+        var result = mapperFacade.mapAsList(topRated, TrackResponseDto.class);
+
+        log.debug("getTopRated() - end: result = {}", result);
+        return result;
+    }
+
+    @Override
+    public List<TrackResponseDto> getTopPlayed(Integer amount) {
+        return null;
     }
 }
