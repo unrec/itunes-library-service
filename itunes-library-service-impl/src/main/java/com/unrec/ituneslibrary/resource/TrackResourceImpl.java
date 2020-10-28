@@ -7,6 +7,7 @@ import com.unrec.ituneslibrary.service.TrackService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import ma.glasnost.orika.MapperFacade;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -22,6 +23,7 @@ public class TrackResourceImpl implements TrackResource {
     private final TrackService trackService;
 
     @Override
+    @Cacheable("tracks")
     public TrackResponseDto getOne(String id) {
         log.debug("getOne() - start: id = {}", id);
 
@@ -33,6 +35,7 @@ public class TrackResourceImpl implements TrackResource {
     }
 
     @Override
+    @Cacheable("tracksPages")
     public PageDto<TrackResponseDto> getPage(Integer size, Integer page) {
         log.debug("getPage() - start: size = {}, page = {}", size, page);
 
@@ -45,6 +48,7 @@ public class TrackResourceImpl implements TrackResource {
     }
 
     @Override
+    @Cacheable("tracks")
     public TrackResponseDto getOne(String artist, String name, String album) {
         log.debug("getOne() - start: artist = {}, name = {}, album = {}", artist, name, album);
 
@@ -55,6 +59,7 @@ public class TrackResourceImpl implements TrackResource {
     }
 
     @Override
+    @Cacheable(value = "tracksByRating")
     public PageDto<TrackResponseDto> getByRating(Integer rating, Integer size, Integer page) {
         log.debug("getByRating() - start: rating = {}, size = {}, page = {}", rating, size, page);
 
@@ -67,6 +72,7 @@ public class TrackResourceImpl implements TrackResource {
     }
 
     @Override
+    @Cacheable("tracksTopRated")
     public List<TrackResponseDto> getTopRated(Integer amount) {
         log.debug("getTopRated() - start: amount = {}", amount);
 
@@ -78,6 +84,7 @@ public class TrackResourceImpl implements TrackResource {
     }
 
     @Override
+    @Cacheable("tracksTopPlayed")
     public List<TrackResponseDto> getTopPlayed(Integer amount) {
         log.debug("getTopPlayed() - start: amount = {}", amount);
 

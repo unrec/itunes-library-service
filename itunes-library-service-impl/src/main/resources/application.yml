@@ -23,7 +23,7 @@ logging.level:
   ROOT: INFO
   org.springframework: INFO
   org.hibernate.SQL: INFO
-  com.unrec: INFO
+  com.unrec: DEBUG
 
 ---
 spring:
