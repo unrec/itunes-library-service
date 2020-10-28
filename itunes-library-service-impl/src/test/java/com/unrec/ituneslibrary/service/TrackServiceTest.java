@@ -1,6 +1,5 @@
 package com.unrec.ituneslibrary.service;
 
-import com.unrec.ituneslibrary.exception.BadRequestException;
 import com.unrec.ituneslibrary.exception.NotFoundException;
 import com.unrec.ituneslibrary.model.Track;
 import com.unrec.ituneslibrary.repository.TrackRepository;
@@ -8,19 +7,15 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.mockito.ArgumentMatchers;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.data.domain.Sort;
 import java.util.Comparator;
 import java.util.Optional;
 import java.util.stream.Collectors;
 import static com.unrec.ituneslibrary.service.TrackService.TOP_RATING;
 import static com.unrec.ituneslibrary.utils.TestObjects.ID_NOT_FOUND;
-import static com.unrec.ituneslibrary.utils.TestObjects.SORT_PARAMETER;
-import static com.unrec.ituneslibrary.utils.TestObjects.WRONG_SORT_DIRECTION;
 import static com.unrec.ituneslibrary.utils.TestObjects.getTestAlbum;
 import static com.unrec.ituneslibrary.utils.TestObjects.getTestArtist;
 import static com.unrec.ituneslibrary.utils.TestObjects.getTestTrack;
@@ -83,17 +78,11 @@ class TrackServiceTest {
     @DisplayName("Get top rated tracks")
     void getTopRated() {
         var expected = getTestTracks().stream().filter(track -> TOP_RATING.equals(track.getRating())).collect(Collectors.toList());
-        when(trackRepository.findAllByRating(eq(TOP_RATING), ArgumentMatchers.any(Sort.class)))
+        when(trackRepository.findAllByRating(eq(TOP_RATING), anyInt()))
                 .thenReturn(expected);
-        var actual = trackService.getTopRated(expected.size(), "DESC", "dateAdded");
+        var actual = trackService.getTopRated(expected.size());
 
         assertEquals(expected, actual);
-    }
-
-    @Test
-    @DisplayName("Throw BadRequestException when passing wrong type of sort")
-    void shouldThrow_whenWrongSortDirection() {
-        assertThrows(BadRequestException.class, () -> trackService.getTopRated(TOP_RATING, WRONG_SORT_DIRECTION, SORT_PARAMETER));
     }
 
     @Test

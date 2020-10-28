@@ -12,16 +12,16 @@ import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import java.net.MalformedURLException;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 import static com.unrec.ituneslibrary.service.TrackService.TOP_RATING;
 import static com.unrec.ituneslibrary.utils.TestObjects.ID_NOT_FOUND;
-import static com.unrec.ituneslibrary.utils.TestObjects.SORT_PARAMETER;
-import static com.unrec.ituneslibrary.utils.TestObjects.WRONG_SORT_DIRECTION;
 import static com.unrec.ituneslibrary.utils.TestObjects.album;
 import static com.unrec.ituneslibrary.utils.TestObjects.artist;
 import static com.unrec.ituneslibrary.utils.TestObjects.fullTrack;
 import static com.unrec.ituneslibrary.utils.TestObjects.getTestTracks;
+import static com.unrec.ituneslibrary.utils.TestObjects.getTestTracksWithRandomPlayCount;
 import static com.unrec.ituneslibrary.utils.TestObjects.track;
 import static com.unrec.ituneslibrary.utils.TestObjects.trackRecord;
 import static org.junit.jupiter.api.Assertions.assertAll;
@@ -139,12 +139,12 @@ class TrackResourceImplTest extends IntegrationTest {
                 .collect(Collectors.toList());
 
         var response = restTemplate.exchange(
-                BASE_URL + "/top/rated/{amount}?direction={direction}&parameter={parameter}",
+                BASE_URL + "/top/rated/{amount}",
                 HttpMethod.GET,
                 null,
                 new ParameterizedTypeReference<List<Track>>() {
                 },
-                100, "DESC", SORT_PARAMETER
+                100
         );
         assertEquals(HttpStatus.OK, response.getStatusCode());
 
@@ -153,17 +153,26 @@ class TrackResourceImplTest extends IntegrationTest {
     }
 
     @Test
-    @DisplayName("Return 400 when passing wrong type of sort")
-    void getTopRated_shouldThrow_whenWrongSortDirection() {
-        trackRepository.saveAll(getTestTracks());
+    @DisplayName("Get top played tracks")
+    void getTopPlayed() {
+        int amount = 2;
+        var tracks = trackRepository.saveAll(getTestTracksWithRandomPlayCount());
+        var expected = tracks.stream()
+                .sorted(Comparator.comparingInt(Track::getPlayCount).reversed())
+                .limit(amount)
+                .collect(Collectors.toList());
 
         var response = restTemplate.exchange(
-                BASE_URL + "/top/rated/{amount}?direction={direction}&parameter={parameter}",
+                BASE_URL + "/top/played/{amount}",
                 HttpMethod.GET,
                 null,
-                String.class,
-                100, WRONG_SORT_DIRECTION, SORT_PARAMETER
+                new ParameterizedTypeReference<List<Track>>() {
+                },
+                amount
         );
-        assertEquals(HttpStatus.BAD_REQUEST, response.getStatusCode());
+        assertEquals(HttpStatus.OK, response.getStatusCode());
+
+        var actual = response.getBody();
+        assertEquals(expected, actual);
     }
 }

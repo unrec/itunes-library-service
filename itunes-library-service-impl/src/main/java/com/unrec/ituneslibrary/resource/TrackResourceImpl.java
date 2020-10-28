@@ -67,10 +67,10 @@ public class TrackResourceImpl implements TrackResource {
     }
 
     @Override
-    public List<TrackResponseDto> getTopRated(Integer amount, String direction, String property) {
+    public List<TrackResponseDto> getTopRated(Integer amount) {
         log.debug("getTopRated() - start: amount = {}", amount);
 
-        var topRated = trackService.getTopRated(amount, direction, property);
+        var topRated = trackService.getTopRated(amount);
         var result = mapperFacade.mapAsList(topRated, TrackResponseDto.class);
 
         log.debug("getTopRated() - end: result = {}", result);

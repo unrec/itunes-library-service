@@ -46,12 +46,10 @@ public interface TrackResource {
             @RequestParam(value = "page", required = false, defaultValue = "${itunes-library-service.pagination.defaultPage}") Integer page);
 
     @GetMapping("/top/rated/{amount}")
-    @Operation(description = "Return page of tracks with highest rating")
+    @Operation(description = "Return page of tracks with highest rating in descending order by date added")
     @ResponseStatus(HttpStatus.OK)
     List<TrackResponseDto> getTopRated(
-            @PathVariable("amount") Integer amount,
-            @RequestParam(value = "direction", required = false, defaultValue = "${itunes-library-service.sort.direction}") String direction,
-            @RequestParam(value = "property", required = false, defaultValue = "${itunes-library-service.sort.property}") String property);
+            @PathVariable("amount") Integer amount);
 
     @GetMapping("/top/played/{amount}")
     @Operation(description = "Return page of tracks with highest play count")

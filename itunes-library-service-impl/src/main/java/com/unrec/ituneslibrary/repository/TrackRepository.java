@@ -3,7 +3,6 @@ package com.unrec.ituneslibrary.repository;
 import com.unrec.ituneslibrary.model.Track;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
@@ -22,10 +21,15 @@ public interface TrackRepository extends JpaRepository<Track, String> {
 
     Page<Track> findAllByRating(Integer rating, Pageable pageable);
 
-    List<Track> findAllByRating(Integer rating, Sort sort);
+    @Query(value = "SELECT * FROM TRACKS t " +
+            "WHERE t.rating = ?1 " +
+            "ORDER BY t.date_added DESC "+
+            "LIMIT ?2",
+            nativeQuery = true)
+    List<Track> findAllByRating(Integer rating, Integer amount);
 
     @Query(value = "SELECT * FROM TRACKS t " +
-            "WHERE t.play_count NOTNULL " +
+            "WHERE t.play_count IS NOT NULL " +
             "ORDER BY t.play_count DESC " +
             "LIMIT ?1",
             nativeQuery = true)
