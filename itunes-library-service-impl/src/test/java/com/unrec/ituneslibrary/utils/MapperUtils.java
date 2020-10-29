@@ -1,5 +1,6 @@
 package com.unrec.ituneslibrary.utils;
 
+import com.unrec.ituneslibrary.config.mapping.AlbumMappingConfig;
 import com.unrec.ituneslibrary.config.mapping.AlbumWithArtistMappingConfig;
 import com.unrec.ituneslibrary.config.mapping.TrackMappingConfig;
 import com.unrec.ituneslibrary.config.mapping.TrackRecordMappingConfig;
@@ -21,6 +22,7 @@ public class MapperUtils {
         new TrackRecordMappingConfig().configure(mapperFactory);
         new AlbumWithArtistMappingConfig().configure(mapperFactory);
         new TrackMappingConfig().configure(mapperFactory);
+        new AlbumMappingConfig().configure(mapperFactory);
         return mapperFactory.getMapperFacade();
     }
 

@@ -11,10 +11,10 @@ public class TrackMappingConfig implements OrikaMapperFactoryConfigurer {
 
     @Override
     public void configure(MapperFactory factory) {
-        registerTrackToTrackResponseMapper(factory);
+        registerTrackToTrackResponseDtoMapper(factory);
     }
 
-    private void registerTrackToTrackResponseMapper(MapperFactory factory) {
+    private void registerTrackToTrackResponseDtoMapper(MapperFactory factory) {
         factory
                 .classMap(Track.class, TrackResponseDto.class)
                 .field("artist.name", "artist")

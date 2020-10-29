@@ -1,5 +1,6 @@
 package com.unrec.ituneslibrary.utils;
 
+import com.unrec.ituneslibrary.dto.AlbumResponseDto;
 import com.unrec.ituneslibrary.dto.TrackResponseDto;
 import com.unrec.ituneslibrary.model.Album;
 import com.unrec.ituneslibrary.model.AlbumId;
@@ -46,8 +47,10 @@ public class TestObjects {
                 .setArtworkCount(1)
                 .setBitRate(320)
                 .setComments("andrei_47 music collection")
+                .setCompilation(FALSE)
                 .setDateAdded(LocalDateTime.parse("2019-09-02T19:25:50Z", DATE_TIME_FORMATTER))
                 .setDateModified(LocalDateTime.parse("2019-09-02T17:25:25Z", DATE_TIME_FORMATTER))
+                .setDiscNumber(1)
                 .setFileFolderCount(-1)
                 .setGenre("Rock")
                 .setKind("Аудиофайл MPEG")
@@ -217,6 +220,12 @@ public class TestObjects {
         return tracks;
     }
 
+    public static List<Track> getTestTracks(Album album, Artist artist) {
+        List<Track> tracks = getTestTracks();
+        tracks.forEach(track -> track.setAlbum(album).setArtist(artist));
+        return tracks;
+    }
+
     public static List<Track> getTestTracksWithRandomPlayCount() {
         var list = getTestTracks();
         list.forEach(track -> track.setPlayCount(ThreadLocalRandom.current().nextInt(MAX_COUNT)));
@@ -286,4 +295,19 @@ public class TestObjects {
                 .setRating(src.getRating())
                 .setDateAdded(src.getDateAdded());
     }
+
+    public static AlbumResponseDto albumResponseDto(Album src) {
+        return new AlbumResponseDto()
+                .setName(src.getId().getName())
+                .setArtist(src.getArtist().getName())
+                .setYear(src.getId().getYear())
+                .setTracks(src.getTracks().stream()
+                        .map(TestObjects::trackResponseDto)
+                        .collect(Collectors.toList()))
+                .setCompilation(src.getCompilation())
+                .setTrackDiscInfo(src.getTrackDiscInfo())
+                ;
+    }
+
+
 }

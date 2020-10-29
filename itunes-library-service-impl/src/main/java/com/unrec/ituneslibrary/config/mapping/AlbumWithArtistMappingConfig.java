@@ -8,7 +8,6 @@ import net.rakugakibox.spring.boot.orika.OrikaMapperFactoryConfigurer;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-
 public class AlbumWithArtistMappingConfig implements OrikaMapperFactoryConfigurer {
 
     @Override
